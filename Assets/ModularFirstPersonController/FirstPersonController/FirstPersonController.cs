@@ -16,13 +16,6 @@ using UnityEngine.UI;
 
 public class FirstPersonController : MonoBehaviour
 {
-    public bool enableSlide = true;
-    public KeyCode slideKey = KeyCode.LeftControl; // or any key you prefer
-    public float slideSpeed = 10f;
-    public float slideDuration = 0.5f;
-    private bool isSliding = false;
-    private float slideTimer = 0f;
-
 
     private float wallJumpPowerScale = 0.05f;
     private Rigidbody rb;
@@ -243,11 +236,6 @@ private void WallJump()
 
         WallJump();
         #region Camera
-        if (enableSlide && Input.GetKeyDown(slideKey) && !isSliding && isGrounded) // Ensure player can only start sliding if grounded and not already sliding
-        {
-            isSliding = true;
-            slideTimer = slideDuration;
-        }
         // Control camera movement
         if(cameraCanMove)
         {
@@ -410,20 +398,6 @@ private void WallJump()
 
     void FixedUpdate()
     {
-        if (isSliding)
-        {
-            // Apply sliding force
-            Vector3 slideDirection = new Vector3(transform.forward.x, 0, transform.forward.z).normalized;
-            rb.velocity = slideDirection * slideSpeed;
-
-            // Count down the slide timer
-            slideTimer -= Time.fixedDeltaTime;
-            if (slideTimer <= 0)
-            {
-                isSliding = false;
-                rb.velocity = Vector3.zero; // Optionally stop the player completely after sliding
-            }
-        }
         #region Movement
 
         if (playerCanMove)
