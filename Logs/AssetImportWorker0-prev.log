@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/nsung/My project (4)
+C:/Users/nsung/My project (1)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51237
-Successfully changed project path to: C:/Users/nsung/My project (4)
-C:/Users/nsung/My project (4)
+55821
+Successfully changed project path to: C:/Users/nsung/My project (1)
+C:/Users/nsung/My project (1)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,67 @@ C:/Users/nsung/My project (4)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9536] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 2410472402 [EditorId] 2410472402 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85UCC07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23828] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 2146626777 [EditorId] 2146626777 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85UCC07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9536] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 2410472402 [EditorId] 2410472402 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85UCC07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23828] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 2146626777 [EditorId] 2146626777 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85UCC07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 7.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/nsung/My project (4)/Assets
+[Subsystems] Discovering subsystems at path C:/Users/nsung/My project (1)/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
     Vendor:   NVIDIA
     VRAM:     5955 MB
-    Driver:   31.0.15.5212
+    Driver:   31.0.15.5222
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008870 seconds.
-- Loaded All Assemblies, in  0.445 seconds
+Registered in 0.008590 seconds.
+- Loaded All Assemblies, in  0.509 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.281 seconds
-Domain Reload Profiling: 724ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  0.400 seconds
+Domain Reload Profiling: 908ms
+	BeginReloadAssembly (159ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (164ms)
-		LoadAssemblies (145ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (157ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (161ms)
-			TypeCache.Refresh (159ms)
-				TypeCache.ScanAssembly (146ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (181ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (282ms)
+	FinalizeReload (401ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (223ms)
+		SetupLoadedEditorAssemblies (304ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (157ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 724ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.671 seconds
-Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.100 seconds
+Refreshing native plugins compatible for Editor in 9.34 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,1326 +126,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.546 seconds
-Domain Reload Profiling: 1215ms
-	BeginReloadAssembly (160ms)
+- Finished resetting the current domain, in  0.860 seconds
+Domain Reload Profiling: 1958ms
+	BeginReloadAssembly (277ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (423ms)
-		LoadAssemblies (329ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (183ms)
-			TypeCache.Refresh (158ms)
-				TypeCache.ScanAssembly (142ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (546ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (406ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (312ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 7.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.1 KB). Loaded Objects now: 3583.
-Memory consumption went from 148.6 MB to 148.6 MB.
-Total: 4.619200 ms (FindLiveObjects: 0.450900 ms CreateObjectMapping: 0.466100 ms MarkObjects: 3.557600 ms  DeleteObjects: 0.142800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.517 seconds
-Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.857 seconds
-Domain Reload Profiling: 1371ms
-	BeginReloadAssembly (180ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (250ms)
-		LoadAssemblies (336ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (857ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (403ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (301ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3586.
-Memory consumption went from 148.0 MB to 148.0 MB.
-Total: 3.472100 ms (FindLiveObjects: 0.271600 ms CreateObjectMapping: 0.993600 ms MarkObjects: 2.160600 ms  DeleteObjects: 0.045600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.468 seconds
-Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.867 seconds
-Domain Reload Profiling: 1333ms
-	BeginReloadAssembly (184ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (211ms)
-		LoadAssemblies (308ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (867ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (417ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (314ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3589.
-Memory consumption went from 149.9 MB to 149.9 MB.
-Total: 3.344600 ms (FindLiveObjects: 0.338900 ms CreateObjectMapping: 0.267600 ms MarkObjects: 2.659100 ms  DeleteObjects: 0.078000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.428 seconds
-Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.851 seconds
-Domain Reload Profiling: 1277ms
-	BeginReloadAssembly (150ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (206ms)
-		LoadAssemblies (276ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (852ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (415ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (309ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3592.
-Memory consumption went from 151.9 MB to 151.8 MB.
-Total: 4.527800 ms (FindLiveObjects: 0.522500 ms CreateObjectMapping: 0.427300 ms MarkObjects: 3.263700 ms  DeleteObjects: 0.313200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.521 seconds
-Refreshing native plugins compatible for Editor in 4.24 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.908 seconds
-Domain Reload Profiling: 1427ms
-	BeginReloadAssembly (162ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (272ms)
-		LoadAssemblies (348ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (909ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (452ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (340ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3595.
-Memory consumption went from 153.8 MB to 153.8 MB.
-Total: 4.345800 ms (FindLiveObjects: 0.565200 ms CreateObjectMapping: 0.505400 ms MarkObjects: 3.224900 ms  DeleteObjects: 0.049300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.509 seconds
-Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.878 seconds
-Domain Reload Profiling: 1384ms
-	BeginReloadAssembly (163ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (268ms)
-		LoadAssemblies (338ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (878ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (412ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (308ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3598.
-Memory consumption went from 155.7 MB to 155.7 MB.
-Total: 3.950100 ms (FindLiveObjects: 0.509000 ms CreateObjectMapping: 0.227000 ms MarkObjects: 3.167400 ms  DeleteObjects: 0.046000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.462 seconds
-Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.861 seconds
-Domain Reload Profiling: 1321ms
-	BeginReloadAssembly (161ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (226ms)
-		LoadAssemblies (290ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (861ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (409ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (289ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3601.
-Memory consumption went from 157.6 MB to 157.6 MB.
-Total: 2.924900 ms (FindLiveObjects: 0.269500 ms CreateObjectMapping: 0.206600 ms MarkObjects: 2.394000 ms  DeleteObjects: 0.053800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.457 seconds
-Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.853 seconds
-Domain Reload Profiling: 1307ms
-	BeginReloadAssembly (147ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (218ms)
-		LoadAssemblies (279ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (854ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (412ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (310ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3604.
-Memory consumption went from 159.6 MB to 159.5 MB.
-Total: 3.167000 ms (FindLiveObjects: 0.363200 ms CreateObjectMapping: 0.337900 ms MarkObjects: 2.415000 ms  DeleteObjects: 0.050000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.498 seconds
-Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.923 seconds
-Domain Reload Profiling: 1419ms
-	BeginReloadAssembly (172ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (250ms)
-		LoadAssemblies (319ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (924ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (435ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (328ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3607.
-Memory consumption went from 161.5 MB to 161.4 MB.
-Total: 4.517800 ms (FindLiveObjects: 0.652400 ms CreateObjectMapping: 0.547800 ms MarkObjects: 3.251600 ms  DeleteObjects: 0.064200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.519 seconds
-Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.916 seconds
-Domain Reload Profiling: 1433ms
-	BeginReloadAssembly (193ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (242ms)
-		LoadAssemblies (318ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (27ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (916ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (432ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (322ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3610.
-Memory consumption went from 163.4 MB to 163.4 MB.
-Total: 3.639700 ms (FindLiveObjects: 0.390200 ms CreateObjectMapping: 0.326000 ms MarkObjects: 2.863300 ms  DeleteObjects: 0.059400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.564 seconds
-Refreshing native plugins compatible for Editor in 4.25 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.915 seconds
-Domain Reload Profiling: 1477ms
-	BeginReloadAssembly (202ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (278ms)
-		LoadAssemblies (364ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (27ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (915ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (430ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (321ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3613.
-Memory consumption went from 165.3 MB to 165.3 MB.
-Total: 4.324100 ms (FindLiveObjects: 0.296900 ms CreateObjectMapping: 0.279200 ms MarkObjects: 3.680900 ms  DeleteObjects: 0.065900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 91512.923346 seconds.
-  path: Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs
-  artifactKey: Guid(d90ba6530d9bfda47abb4610956b2f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs using Guid(d90ba6530d9bfda47abb4610956b2f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c645be1176bf92ef4d70562fdf42c9') in 0.003310 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.572 seconds
-Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.880 seconds
-Domain Reload Profiling: 1448ms
-	BeginReloadAssembly (202ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (282ms)
-		LoadAssemblies (367ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (880ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (410ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (306ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3616.
-Memory consumption went from 167.0 MB to 167.0 MB.
-Total: 3.109200 ms (FindLiveObjects: 0.317700 ms CreateObjectMapping: 0.371100 ms MarkObjects: 2.368400 ms  DeleteObjects: 0.051100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.566 seconds
-Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.931 seconds
-Domain Reload Profiling: 1494ms
-	BeginReloadAssembly (213ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (269ms)
-		LoadAssemblies (356ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (932ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (427ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (319ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3619.
-Memory consumption went from 169.2 MB to 169.1 MB.
-Total: 4.613700 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.297800 ms MarkObjects: 3.914100 ms  DeleteObjects: 0.104800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.543 seconds
-Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.924 seconds
-Domain Reload Profiling: 1465ms
-	BeginReloadAssembly (197ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (265ms)
-		LoadAssemblies (345ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (925ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (416ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (308ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3622.
-Memory consumption went from 171.1 MB to 171.1 MB.
-Total: 3.695300 ms (FindLiveObjects: 0.357600 ms CreateObjectMapping: 0.953900 ms MarkObjects: 2.335400 ms  DeleteObjects: 0.047600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.536 seconds
-Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.909 seconds
-Domain Reload Profiling: 1442ms
-	BeginReloadAssembly (182ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (260ms)
-		LoadAssemblies (330ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (27ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (909ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (413ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (309ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3625.
-Memory consumption went from 173.0 MB to 173.0 MB.
-Total: 4.241200 ms (FindLiveObjects: 0.323900 ms CreateObjectMapping: 0.325200 ms MarkObjects: 3.521200 ms  DeleteObjects: 0.069800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.548 seconds
-Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.924 seconds
-Domain Reload Profiling: 1471ms
-	BeginReloadAssembly (199ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (259ms)
-		LoadAssemblies (348ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (925ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (446ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (340ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3628.
-Memory consumption went from 174.9 MB to 174.9 MB.
-Total: 4.080300 ms (FindLiveObjects: 0.377900 ms CreateObjectMapping: 0.367600 ms MarkObjects: 3.214000 ms  DeleteObjects: 0.119200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 811.624805 seconds.
-  path: Assets/Scripts/Coin.cs
-  artifactKey: Guid(88292dc5ce5511d49978fe8f17cca50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Coin.cs using Guid(88292dc5ce5511d49978fe8f17cca50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d86174f1a2d3609436d7a096f1f8b72') in 0.007792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.681 seconds
-Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.010 seconds
-Domain Reload Profiling: 1688ms
-	BeginReloadAssembly (242ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (341ms)
-		LoadAssemblies (407ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (51ms)
-			TypeCache.Refresh (30ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1010ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (443ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (330ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3632.
-Memory consumption went from 176.6 MB to 176.6 MB.
-Total: 3.799800 ms (FindLiveObjects: 0.386900 ms CreateObjectMapping: 0.392000 ms MarkObjects: 2.933300 ms  DeleteObjects: 0.085700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 8.878625 seconds.
-  path: Assets/Scripts/Coin.cs
-  artifactKey: Guid(88292dc5ce5511d49978fe8f17cca50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Coin.cs using Guid(88292dc5ce5511d49978fe8f17cca50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03391a4d8cc48d026e254230e5e2b06') in 0.003435 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.624 seconds
-Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.885 seconds
-Domain Reload Profiling: 1506ms
-	BeginReloadAssembly (229ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (64ms)
-	RebuildCommonClasses (36ms)
+	RebuildCommonClasses (65ms)
 	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (306ms)
-		LoadAssemblies (394ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (677ms)
+		LoadAssemblies (473ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (33ms)
-			TypeCache.Refresh (20ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (885ms)
+		AnalyzeDomain (352ms)
+			TypeCache.Refresh (299ms)
+				TypeCache.ScanAssembly (264ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (861ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (394ms)
+		SetupLoadedEditorAssemblies (576ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (292ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3635.
-Memory consumption went from 178.5 MB to 178.5 MB.
-Total: 4.056600 ms (FindLiveObjects: 0.563900 ms CreateObjectMapping: 0.508700 ms MarkObjects: 2.892700 ms  DeleteObjects: 0.090600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.530 seconds
-Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.919 seconds
-Domain Reload Profiling: 1448ms
-	BeginReloadAssembly (188ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (257ms)
-		LoadAssemblies (328ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (27ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (920ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (421ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
+			InitializePlatformSupportModulesInManaged (12ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (319ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (443ms)
 			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3638.
-Memory consumption went from 180.7 MB to 180.7 MB.
-Total: 4.243000 ms (FindLiveObjects: 0.452700 ms CreateObjectMapping: 0.360700 ms MarkObjects: 3.326300 ms  DeleteObjects: 0.101900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.536 seconds
-Refreshing native plugins compatible for Editor in 3.41 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.941 seconds
-Domain Reload Profiling: 1473ms
-	BeginReloadAssembly (192ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (239ms)
-		LoadAssemblies (332ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (941ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (433ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (328ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3641.
-Memory consumption went from 182.6 MB to 182.6 MB.
-Total: 4.938800 ms (FindLiveObjects: 0.606000 ms CreateObjectMapping: 0.508000 ms MarkObjects: 3.713400 ms  DeleteObjects: 0.110000 ms)
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3584.
+Memory consumption went from 156.2 MB to 156.2 MB.
+Total: 8.090100 ms (FindLiveObjects: 0.757800 ms CreateObjectMapping: 0.520300 ms MarkObjects: 6.364200 ms  DeleteObjects: 0.444000 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1460,464 +182,991 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.553 seconds
-Refreshing native plugins compatible for Editor in 4.35 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.930 seconds
-Domain Reload Profiling: 1481ms
-	BeginReloadAssembly (194ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (273ms)
-		LoadAssemblies (357ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (32ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (931ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (441ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (325ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3644.
-Memory consumption went from 184.6 MB to 184.5 MB.
-Total: 2.548400 ms (FindLiveObjects: 0.295500 ms CreateObjectMapping: 0.223700 ms MarkObjects: 1.990300 ms  DeleteObjects: 0.038100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 112139.185369 seconds.
+  path: Assets/FullUTD/UTD.blend
+  artifactKey: Guid(467ad37323dc3a44da1179beb7c625c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FullUTD/UTD.blend using Guid(467ad37323dc3a44da1179beb7c625c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b0b7c19108d526d2d7ea290d76cce8') in 0.018647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.531 seconds
-Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.902 seconds
-Domain Reload Profiling: 1431ms
-	BeginReloadAssembly (183ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (269ms)
-		LoadAssemblies (352ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (902ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (424ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (312ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3647.
-Memory consumption went from 186.5 MB to 186.4 MB.
-Total: 2.936500 ms (FindLiveObjects: 0.317800 ms CreateObjectMapping: 0.297100 ms MarkObjects: 2.277900 ms  DeleteObjects: 0.042700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 12.098397 seconds.
+  path: Assets/UTD5/5alotpolice-00000-texture.png
+  artifactKey: Guid(40164a57575172848ab6d5246bf91f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00000-texture.png using Guid(40164a57575172848ab6d5246bf91f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339dd012a47a672b837d5add536b81eb') in 0.089730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.554 seconds
-Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.903 seconds
-Domain Reload Profiling: 1454ms
-	BeginReloadAssembly (192ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (272ms)
-		LoadAssemblies (367ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (904ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (419ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (312ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3650.
-Memory consumption went from 188.4 MB to 188.4 MB.
-Total: 4.142100 ms (FindLiveObjects: 0.295600 ms CreateObjectMapping: 0.303300 ms MarkObjects: 3.474300 ms  DeleteObjects: 0.067700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.171477 seconds.
+  path: Assets/UTD5/5alotpolice-00003-texture.png
+  artifactKey: Guid(88e100a59fd43204e9102a203cf1c056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00003-texture.png using Guid(88e100a59fd43204e9102a203cf1c056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f98fc8df936a088cc67327a55cd904a') in 0.033023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.538 seconds
-Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.914 seconds
-Domain Reload Profiling: 1450ms
-	BeginReloadAssembly (188ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (263ms)
-		LoadAssemblies (342ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (915ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (424ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (318ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3653.
-Memory consumption went from 190.3 MB to 190.3 MB.
-Total: 6.225300 ms (FindLiveObjects: 0.609600 ms CreateObjectMapping: 0.396800 ms MarkObjects: 5.095600 ms  DeleteObjects: 0.121600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UTD5/5alotpolice-00005-texture.png
+  artifactKey: Guid(74be403c03171e94db04beac09e7e56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00005-texture.png using Guid(74be403c03171e94db04beac09e7e56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a407c4c98830e2368179d47b7350f4') in 0.018970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.574 seconds
-Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.883 seconds
-Domain Reload Profiling: 1454ms
-	BeginReloadAssembly (213ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (272ms)
-		LoadAssemblies (370ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (30ms)
-			TypeCache.Refresh (21ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (884ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (414ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (305ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3656.
-Memory consumption went from 192.2 MB to 192.2 MB.
-Total: 3.535700 ms (FindLiveObjects: 0.322500 ms CreateObjectMapping: 0.258300 ms MarkObjects: 2.871000 ms  DeleteObjects: 0.082800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UTD5/5alotpolice-00008-texture.png
+  artifactKey: Guid(bbec60de3556cad4aa50fc9e451b3c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00008-texture.png using Guid(bbec60de3556cad4aa50fc9e451b3c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c9a913f16d29b37988c8584af721c9') in 0.017840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.521 seconds
-Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.889 seconds
-Domain Reload Profiling: 1407ms
-	BeginReloadAssembly (193ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (243ms)
-		LoadAssemblies (334ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (889ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (407ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (300ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 4.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3659.
-Memory consumption went from 194.2 MB to 194.1 MB.
-Total: 4.073400 ms (FindLiveObjects: 0.510300 ms CreateObjectMapping: 0.430200 ms MarkObjects: 3.049500 ms  DeleteObjects: 0.081600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.216047 seconds.
+  path: Assets/UTD5/5alotpolice-00011-texture.png
+  artifactKey: Guid(b44595878c2969d4eb26e1777cabc6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00011-texture.png using Guid(b44595878c2969d4eb26e1777cabc6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793a6b711a715c735ced3c9f1a9f7fa5') in 0.018179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.520 seconds
-Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.907 seconds
-Domain Reload Profiling: 1424ms
-	BeginReloadAssembly (199ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (239ms)
-		LoadAssemblies (339ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (907ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (433ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (320ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3662.
-Memory consumption went from 196.1 MB to 196.0 MB.
-Total: 3.672700 ms (FindLiveObjects: 0.414100 ms CreateObjectMapping: 0.276500 ms MarkObjects: 2.906200 ms  DeleteObjects: 0.074500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UTD5/5alotpolice-00007-texture.png
+  artifactKey: Guid(ee0e40ea0ecfa8145b15f00623a09788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00007-texture.png using Guid(ee0e40ea0ecfa8145b15f00623a09788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacf3a2fcf2076141538ba762535eb30') in 0.021658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UTD5/5alotpolice-00015-texture.png
+  artifactKey: Guid(8b7c1f86434e83a4a9423fd8dd268f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00015-texture.png using Guid(8b7c1f86434e83a4a9423fd8dd268f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f012f94161563f4250f20b60b914d6af') in 0.018199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UTD5/5alotpolice-00018-texture.png
+  artifactKey: Guid(6cd8341402a183e4ab17bbe2ef5a5040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00018-texture.png using Guid(6cd8341402a183e4ab17bbe2ef5a5040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd833a374d52a659d39abbf949f908b85') in 0.023036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UTD5/5alotpolice-00021-texture.png
+  artifactKey: Guid(e31cfc475549f724aa365b3fcf43b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00021-texture.png using Guid(e31cfc475549f724aa365b3fcf43b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46b1b63b2b9373426217fa0ad52a594') in 0.022072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UTD5/5alotpolice-00022-texture.png
+  artifactKey: Guid(ae77f65d002527e4c8d544070d69fd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00022-texture.png using Guid(ae77f65d002527e4c8d544070d69fd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84bb2cf5c0c7fa40e342e29116e2d83') in 0.019290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UTD5/5alotpolice-00026-texture.png
+  artifactKey: Guid(fd740a3dca4216643bfe90b5f1b89bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00026-texture.png using Guid(fd740a3dca4216643bfe90b5f1b89bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eff5606509d72b0d62deed9131a4db6') in 0.024373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/UTD5/5alotpolice-00028-texture.png
+  artifactKey: Guid(7762dc44cad61664387e8996d07ae36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00028-texture.png using Guid(7762dc44cad61664387e8996d07ae36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3287d521d24ab6d2fb849c97472b0d20') in 0.034382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UTD5/5alotpolice-00029-texture.png
+  artifactKey: Guid(861511a81c300dd45ac56bb81818cb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00029-texture.png using Guid(861511a81c300dd45ac56bb81818cb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b894b6a43608a1f60adda04bd753a9fd') in 0.019672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/UTD5/5alotpolice-00032-texture.png
+  artifactKey: Guid(44e1a5d8e0398c14982d852622320477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00032-texture.png using Guid(44e1a5d8e0398c14982d852622320477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b022386f3cd745f3f74577b43a94617f') in 0.016298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UTD5/5alotpolice-00034-texture.png
+  artifactKey: Guid(c4db088de0c18d24792a2a582bcc063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00034-texture.png using Guid(c4db088de0c18d24792a2a582bcc063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b789ad013b4f198ea01e017c0ed6f57e') in 0.013623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UTD5/5alotpolice-00038-texture.png
+  artifactKey: Guid(72d886d11ceec5843b68211bab7728e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00038-texture.png using Guid(72d886d11ceec5843b68211bab7728e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a72963ba990df848ddd0e7132c36750') in 0.016148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UTD5/5alotpolice-00040-texture.png
+  artifactKey: Guid(b5113c0092c738641b1b5441e24eb72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00040-texture.png using Guid(b5113c0092c738641b1b5441e24eb72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6314bbaeecdabc52ea2ee61f045c6c0') in 0.023907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UTD5/5alotpolice-00043-texture.png
+  artifactKey: Guid(08ca13dbdd076514cadcac10a1e07c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00043-texture.png using Guid(08ca13dbdd076514cadcac10a1e07c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e361fc880f4c78638d47376441d224d4') in 0.031479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UTD5/5alotpolice-00046-texture.png
+  artifactKey: Guid(d87bc71152dd9664d8b5a48b4ec09975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00046-texture.png using Guid(d87bc71152dd9664d8b5a48b4ec09975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f26e0e483b330235607b361f3d44877') in 0.020814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UTD5/5alotpolice-00050-texture.png
+  artifactKey: Guid(a412df816edd83b4ea725da64c98d0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00050-texture.png using Guid(a412df816edd83b4ea725da64c98d0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435853505d62baa67e59b55a7af50170') in 0.017237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UTD5/5alotpolice-00051-texture.png
+  artifactKey: Guid(161821f89ee439e4bb58f3411c902650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00051-texture.png using Guid(161821f89ee439e4bb58f3411c902650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66e994e5b3bbb5dc41370518fd02b5d') in 0.023107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UTD5/5alotpolice-00055-texture.png
+  artifactKey: Guid(a7622420a09ed1f4e8135d4db0995467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00055-texture.png using Guid(a7622420a09ed1f4e8135d4db0995467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a80cbfe1106625915226a3fb0550c5') in 0.068529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UTD5/5alotpolice-00057-texture.png
+  artifactKey: Guid(504d865cb202d08439b21c6eebbc6d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00057-texture.png using Guid(504d865cb202d08439b21c6eebbc6d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ad85d962474543ae74e11740a2a90f') in 0.017272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UTD5/5alotpolice-00059-texture.png
+  artifactKey: Guid(70f7d0527681f1745b8dda1a6ed0973f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00059-texture.png using Guid(70f7d0527681f1745b8dda1a6ed0973f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79a0c2e532f511f6c6f1e95d8bec7ab') in 0.021665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UTD5/5alotpolice-00062-texture.png
+  artifactKey: Guid(ef3524a5586ba824ca8ef5eea67ee461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00062-texture.png using Guid(ef3524a5586ba824ca8ef5eea67ee461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e0b270a2ae951b35dbdab1f9099045') in 0.025116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UTD5/5alotpolice-00025-texture.png
+  artifactKey: Guid(ef95c237dddb6e0499c3fab40095dcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00025-texture.png using Guid(ef95c237dddb6e0499c3fab40095dcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1d7307af457192b2761c75e0d739e7') in 0.018546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UTD5/5alotpolice-00009-texture.png
+  artifactKey: Guid(1358e8ea0f4a16a4f978c0277d7abc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00009-texture.png using Guid(1358e8ea0f4a16a4f978c0277d7abc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0e7e9b21e92c741ec451b9ad6682c3') in 0.022384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UTD5/5alotpolice-00070-texture.png
+  artifactKey: Guid(787e94a1568928e428986237f8ad6a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00070-texture.png using Guid(787e94a1568928e428986237f8ad6a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e6d17a58363e7b04060e69c0ab5bb4') in 0.015941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UTD5/5alotpolice-00072-texture.png
+  artifactKey: Guid(99590f5136592064e889d7820e9db5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00072-texture.png using Guid(99590f5136592064e889d7820e9db5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671cd0e84988e7064acb39b774a485ec') in 0.017536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UTD5/5alotpolice-00075-texture.png
+  artifactKey: Guid(330bd4cf7b842544ca6e4bca037fa140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00075-texture.png using Guid(330bd4cf7b842544ca6e4bca037fa140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf40420feceb60ba43e9df74053e098b') in 0.021024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UTD5/5alotpolice-00077-texture.png
+  artifactKey: Guid(6842e4e0bb2dee3409346648b85662dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00077-texture.png using Guid(6842e4e0bb2dee3409346648b85662dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbd0c86ebefc6decec8bfab353a0b74') in 0.022394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UTD5/5alotpolice-00080-texture.png
+  artifactKey: Guid(c08133c17c237ed41b6b7ecc86a167d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00080-texture.png using Guid(c08133c17c237ed41b6b7ecc86a167d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa070d95539ccd9fc4ab5e4184fa7e71') in 0.018932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UTD5/5alotpolice-00081-texture.png
+  artifactKey: Guid(6a19b4ca4a9dc0542a79d4b55d82b62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00081-texture.png using Guid(6a19b4ca4a9dc0542a79d4b55d82b62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab3a1a593a1936f0ebc2f66dc1bb7f4') in 0.017963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UTD5/5alotpolice-00079-texture.png
+  artifactKey: Guid(4da7524a8e9bfae4eab3d55d1664f071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00079-texture.png using Guid(4da7524a8e9bfae4eab3d55d1664f071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdce757f745adb2934331d7679137c2c') in 0.022796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/UTD5/5alotpolice-00084-texture.png
+  artifactKey: Guid(580e858378032564b980e78e84adf3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00084-texture.png using Guid(580e858378032564b980e78e84adf3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f482227f207b7ae40c02e50ccbb3af') in 0.020393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UTD5/5alotpolice-00047-texture.png
+  artifactKey: Guid(5eae0f13bbd4b6943a366f5f2ae392b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00047-texture.png using Guid(5eae0f13bbd4b6943a366f5f2ae392b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0f7f7eb09cdef76f1f572810027db1') in 0.024354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UTD5/5alotpolice-00065-texture.png
+  artifactKey: Guid(782b234243e7e7245959e32492908c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00065-texture.png using Guid(782b234243e7e7245959e32492908c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8966681725076166dff2121c5c08976') in 0.025652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UTD5/5alotpolice-00067-texture.png
+  artifactKey: Guid(cef274573f35541438dad52be99a6710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00067-texture.png using Guid(cef274573f35541438dad52be99a6710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b1e67130da77e63670ea62398234c2') in 0.013750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UTD5/5alotpolice-00071-texture.png
+  artifactKey: Guid(b1203029c2e36424d801a1516ea094da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00071-texture.png using Guid(b1203029c2e36424d801a1516ea094da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194ffdd5bb9ffa694589275ff0842bd9') in 0.021271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/UTD5/5alotpolice-00058-texture.png
+  artifactKey: Guid(03d901c4014332f40ba1f95ad3408509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00058-texture.png using Guid(03d901c4014332f40ba1f95ad3408509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2381c0f5823240c4688889d8b64c7bba') in 0.022895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UTD5/5alotpolice-00044-texture.png
+  artifactKey: Guid(9768ce6798532ec48b4bc3302f1a25af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00044-texture.png using Guid(9768ce6798532ec48b4bc3302f1a25af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96b6af80c27fddcef434cebb8f9ad56') in 0.022642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.622185 seconds.
+  path: Assets/UTD5/5alotpolice-00086-texture.png
+  artifactKey: Guid(bb8fee717bd92cf499bfd52df4a88ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00086-texture.png using Guid(bb8fee717bd92cf499bfd52df4a88ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de6169e6787b484338a8150260cab8f') in 0.019761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005753 seconds.
+  path: Assets/UTD5/5alotpolice-00089-texture.png
+  artifactKey: Guid(31cfc3f04ebed2e44821bf6e9f1723d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00089-texture.png using Guid(31cfc3f04ebed2e44821bf6e9f1723d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecbf6848cbcb7188858b1d51d1ccd93') in 0.024417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UTD5/5alotpolice-00091-texture.png
+  artifactKey: Guid(a6d1cde8269405440ba542adf83bd869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00091-texture.png using Guid(a6d1cde8269405440ba542adf83bd869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2dea04c555e00790b064bff70262c8') in 0.023005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UTD5/5alotpolice-00093-texture.png
+  artifactKey: Guid(6835d357f7db7b24fa3e27c6a0e126cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00093-texture.png using Guid(6835d357f7db7b24fa3e27c6a0e126cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17efa55f974e042783816d419c65828') in 0.020631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UTD5/5alotpolice-00095-texture.png
+  artifactKey: Guid(edd1399251df87e409c3ef6c4e7dacf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00095-texture.png using Guid(edd1399251df87e409c3ef6c4e7dacf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c807fbe2acb4abb17a7d57640d7159') in 0.021882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016886 seconds.
+  path: Assets/UTD5/5alotpolice-00099-texture.png
+  artifactKey: Guid(9a20bf396cb811d4293e8da14513f335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00099-texture.png using Guid(9a20bf396cb811d4293e8da14513f335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75d75069580f6b84c8a4f8b15b120ae') in 0.028341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.130999 seconds.
+  path: Assets/UTD5/5alotpolice-00103-texture.png
+  artifactKey: Guid(ce8f1138496a0d54f975dc6d8fed524b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00103-texture.png using Guid(ce8f1138496a0d54f975dc6d8fed524b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9caa39e185681ca8196ac44875d6247') in 0.012769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005583 seconds.
+  path: Assets/UTD5/5alotpolice-00106-texture.png
+  artifactKey: Guid(db898a67dafbcba40a065c0e1886282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00106-texture.png using Guid(db898a67dafbcba40a065c0e1886282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc89947fdf5b6fd9acea89b0ca3c657') in 0.020417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006675 seconds.
+  path: Assets/UTD5/5alotpolice-00109-texture.png
+  artifactKey: Guid(ad48ac78c1583614d9fee8f41f59b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00109-texture.png using Guid(ad48ac78c1583614d9fee8f41f59b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab579fc2c25171555ff95484b1af2bfe') in 0.017904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017423 seconds.
+  path: Assets/UTD5/5alotpolice-00113-texture.png
+  artifactKey: Guid(eaa68dc725b4f7340836572882ad86a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00113-texture.png using Guid(eaa68dc725b4f7340836572882ad86a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd368e812e9659d49fa39ccb9cd1a710e') in 0.018440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008504 seconds.
+  path: Assets/UTD5/5alotpolice-00116-texture.png
+  artifactKey: Guid(e51d5ff2adc39624b833768d1b466ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00116-texture.png using Guid(e51d5ff2adc39624b833768d1b466ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b672bd4e4eb8585070737964dab8b33') in 0.023041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005127 seconds.
+  path: Assets/UTD5/5alotpolice-00119-texture.png
+  artifactKey: Guid(5c717da7e8ac5cb49b06279ba2ceb8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00119-texture.png using Guid(5c717da7e8ac5cb49b06279ba2ceb8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6414e99ed46534f49d4661150b98ebfc') in 0.022345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005371 seconds.
+  path: Assets/UTD5/5alotpolice-00122-texture.png
+  artifactKey: Guid(e1de0a4fc6cf3d64b94bf0780ba52fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00122-texture.png using Guid(e1de0a4fc6cf3d64b94bf0780ba52fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99562df26aa65cc62d0e37ec7419308c') in 0.026106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004247 seconds.
+  path: Assets/UTD5/5alotpolice-00126-texture.png
+  artifactKey: Guid(30a51dbdd4c96df42b261e0fe3506a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00126-texture.png using Guid(30a51dbdd4c96df42b261e0fe3506a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a4b031a44665a0959e7e52a9fcc9f0') in 0.020235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007633 seconds.
+  path: Assets/UTD5/5alotpolice-00128-texture.png
+  artifactKey: Guid(ddfe9b2f8171c83488d313393da52b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00128-texture.png using Guid(ddfe9b2f8171c83488d313393da52b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0501ea8cac5796dd701b85019e6c9df9') in 0.022836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005637 seconds.
+  path: Assets/UTD5/5alotpolice-00131-texture.png
+  artifactKey: Guid(3fc7a7504d2fe794cb2fc05ed56e5ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00131-texture.png using Guid(3fc7a7504d2fe794cb2fc05ed56e5ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019227e8d966e719eb1306116ec2753b') in 0.023908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006533 seconds.
+  path: Assets/UTD5/5alotpolice-00135-texture.png
+  artifactKey: Guid(2cadb76109c8c194296727af41276b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00135-texture.png using Guid(2cadb76109c8c194296727af41276b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043e1101073d7f20f120303c29a11f2f') in 0.020275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003598 seconds.
+  path: Assets/UTD5/5alotpolice-00138-texture.png
+  artifactKey: Guid(9c43e24b8ae3c27488e5f784b2b2e6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00138-texture.png using Guid(9c43e24b8ae3c27488e5f784b2b2e6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b44d80bd16ae9287422fdab9f5758e') in 0.016499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000899 seconds.
+  path: Assets/UTD5/5alotpolice-00140-texture.png
+  artifactKey: Guid(b162ff4ebaab4c4499e03c7bc1ba7304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00140-texture.png using Guid(b162ff4ebaab4c4499e03c7bc1ba7304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac76056c30b5bee9205446cd4134095') in 0.023390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006980 seconds.
+  path: Assets/UTD5/5alotpolice-00144-texture.png
+  artifactKey: Guid(e246d40075efac9469c3c8426ef42993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00144-texture.png using Guid(e246d40075efac9469c3c8426ef42993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf68605fbbbe7bb95d65fbc41527288e') in 0.026896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013686 seconds.
+  path: Assets/UTD5/5alotpolice-00148-texture.png
+  artifactKey: Guid(b74188685860da94894d6fdc30f66ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00148-texture.png using Guid(b74188685860da94894d6fdc30f66ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081e558a732fbeee0b990c9cbc3b53f7') in 0.025145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006989 seconds.
+  path: Assets/UTD5/5alotpolice-00152-texture.png
+  artifactKey: Guid(88927851097474a40a221f25a91ea50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00152-texture.png using Guid(88927851097474a40a221f25a91ea50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155ac6fc4246c7b1641cea4e3c8e7489') in 0.024949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007749 seconds.
+  path: Assets/UTD5/5alotpolice-00155-texture.png
+  artifactKey: Guid(2482f445e0914fe408a11a499b8fec9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00155-texture.png using Guid(2482f445e0914fe408a11a499b8fec9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8bc84f89042cdcb107bdaf08771c45') in 0.024794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001944 seconds.
+  path: Assets/UTD5/5alotpolice-00158-texture.png
+  artifactKey: Guid(f91408328da63e541b178a0202c190b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00158-texture.png using Guid(f91408328da63e541b178a0202c190b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6b770302bc8dd01d1b77a1aa8b051e') in 0.025008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003473 seconds.
+  path: Assets/UTD5/5alotpolice-00161-texture.png
+  artifactKey: Guid(c4587d49ea539574e9e2b45075240427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00161-texture.png using Guid(c4587d49ea539574e9e2b45075240427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f802aa2820b3bd29a1c7dc1666033e') in 0.034524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009910 seconds.
+  path: Assets/UTD5/5alotpolice-00165-texture.png
+  artifactKey: Guid(6e4b2f22df8f79746a786cf68c673c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00165-texture.png using Guid(6e4b2f22df8f79746a786cf68c673c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94ffc52d3084a84bbff2eb003271cd4') in 0.055788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UTD5/5alotpolice-00169-texture.png
+  artifactKey: Guid(081e49eef913b314e888cc57b0c5698e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00169-texture.png using Guid(081e49eef913b314e888cc57b0c5698e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcd9dd205b8d61ad5dc1ab639962485') in 0.030632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/UTD5/5alotpolice-00172-texture.png
+  artifactKey: Guid(02f80ad20465156479b7ed5df7565a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00172-texture.png using Guid(02f80ad20465156479b7ed5df7565a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c9cad0dffd2b8c6196ded9f1c16950') in 0.079057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UTD5/5alotpolice-00176-texture.png
+  artifactKey: Guid(9998b64dd5253a1418764ec036fe21f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00176-texture.png using Guid(9998b64dd5253a1418764ec036fe21f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8369aa1564ae87cab05c0ef6540505c') in 0.062241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/UTD5/5alotpolice-00180-texture.png
+  artifactKey: Guid(8206b72910c7cdd418412f397ad1cefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00180-texture.png using Guid(8206b72910c7cdd418412f397ad1cefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546e47f1ea872b04538c7bfb3a130103') in 0.102251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/UTD5/5alotpolice-00183-texture.png
+  artifactKey: Guid(61331d35bb007a94390c8a06d26811af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00183-texture.png using Guid(61331d35bb007a94390c8a06d26811af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc016fc31557ede5a5b0b8232c78db0') in 0.044065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UTD5/5alotpolice-00188-texture.png
+  artifactKey: Guid(0a8563b44c4ce8f4f9e42153a1853d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00188-texture.png using Guid(0a8563b44c4ce8f4f9e42153a1853d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd737fb89310349627722888c865e8095') in 0.075581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/UTD5/5alotpolice-00196-texture.png
+  artifactKey: Guid(f36b1bb456dc03146911248e075c4cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00196-texture.png using Guid(f36b1bb456dc03146911248e075c4cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8671f9eb4cb067634fc4d8be3c0e81') in 0.041544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/UTD5/5alotpolice-00200-texture.png
+  artifactKey: Guid(5ae32481995940b46bf1f0bfc15e747f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00200-texture.png using Guid(5ae32481995940b46bf1f0bfc15e747f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7506164d28f6c0241cc84e42d5b1173') in 0.029069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UTD5/5alotpolice-00202-texture.png
+  artifactKey: Guid(c4004a5a4c1ab794f9e9b422cbbb2a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00202-texture.png using Guid(c4004a5a4c1ab794f9e9b422cbbb2a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44fa403b3e2cbad6b259ddf6bc2498b') in 0.033541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.981140 seconds.
+  path: Assets/UTD5/5alotpolice-00205-texture.png
+  artifactKey: Guid(fab36536933d7ed4faa55ce50e36a336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00205-texture.png using Guid(fab36536933d7ed4faa55ce50e36a336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362cc93cd9c729d6ebbe85ef025bd056') in 0.024450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009606 seconds.
+  path: Assets/UTD5/5alotpolice-00208-texture.png
+  artifactKey: Guid(c487f84a3b6ff654bb1045a687fefa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00208-texture.png using Guid(c487f84a3b6ff654bb1045a687fefa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b56f9e3d49e6e807e0e0d42669ceb29') in 0.025125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008327 seconds.
+  path: Assets/UTD5/5alotpolice-00211-texture.png
+  artifactKey: Guid(27f96b5c1e61f0f43afa8d7f6009a905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00211-texture.png using Guid(27f96b5c1e61f0f43afa8d7f6009a905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd2d71d3e4fd01a580a8af798d0a93c') in 0.024030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006742 seconds.
+  path: Assets/UTD5/5alotpolice-00214-texture.png
+  artifactKey: Guid(49242963a32d436469c18d06ad78e6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00214-texture.png using Guid(49242963a32d436469c18d06ad78e6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e8341168c93730735d73dfe4f8ff40') in 0.028128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001234 seconds.
+  path: Assets/UTD5/5alotpolice-00217-texture.png
+  artifactKey: Guid(9472d4e3cb8fd874d8b7fc90b6bc0963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00217-texture.png using Guid(9472d4e3cb8fd874d8b7fc90b6bc0963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de10c0bfb6d98ca9d369c5ba99068aa7') in 0.027503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002102 seconds.
+  path: Assets/UTD5/5alotpolice-00220-texture.png
+  artifactKey: Guid(4ba8135765aee93428259c4c0d649b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00220-texture.png using Guid(4ba8135765aee93428259c4c0d649b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac16b105b1f97c8208f168abab6f2052') in 0.032264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003735 seconds.
+  path: Assets/UTD5/5alotpolice-00289-texture.png
+  artifactKey: Guid(76ebaa06b67d1994aaf98e5ae8b6f3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00289-texture.png using Guid(76ebaa06b67d1994aaf98e5ae8b6f3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bbe14b81a1547681f3b4b242a30cd7') in 0.028797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006007 seconds.
+  path: Assets/UTD5/5alotpolice-00292-texture.png
+  artifactKey: Guid(ff9abb342e77e574a85f271ff324ebee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00292-texture.png using Guid(ff9abb342e77e574a85f271ff324ebee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2f43d690cfd0ffdc606f6dfb76bd8a') in 0.027555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004338 seconds.
+  path: Assets/UTD5/5alotpolice-00295-texture.png
+  artifactKey: Guid(823835b305c3cde4d8455ba615cf0c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00295-texture.png using Guid(823835b305c3cde4d8455ba615cf0c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccd327f0b6ce97ed466602c12e9a5c5') in 0.029999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008911 seconds.
+  path: Assets/UTD5/5alotpolice-00299-texture.png
+  artifactKey: Guid(96f5e6c51c486024b90cccc72902e718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00299-texture.png using Guid(96f5e6c51c486024b90cccc72902e718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7149b2db3a3c7c538aa6df31ff0d9893') in 0.023391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006141 seconds.
+  path: Assets/UTD5/5alotpolice-00302-texture.png
+  artifactKey: Guid(4aa793ffe154dc145868b4abf007cef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00302-texture.png using Guid(4aa793ffe154dc145868b4abf007cef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f794ed66ce1d94b04ad173115a6afb62') in 0.025966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003916 seconds.
+  path: Assets/UTD5/5alotpolice-00305-texture.png
+  artifactKey: Guid(2cf3e03df2f59c644a7cedfd5bbabffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00305-texture.png using Guid(2cf3e03df2f59c644a7cedfd5bbabffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6546f51a59ba8e49cc547732e233578f') in 0.022947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006551 seconds.
+  path: Assets/UTD5/5alotpolice-00308-texture.png
+  artifactKey: Guid(69cca21735de0d44c9488e3935a57e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00308-texture.png using Guid(69cca21735de0d44c9488e3935a57e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee3fd18b6dd90f4975f8c6d32513b86') in 0.016816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009439 seconds.
+  path: Assets/UTD5/5alotpolice-00311-texture.png
+  artifactKey: Guid(78c86aca45b9dee4fac081704bfb279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00311-texture.png using Guid(78c86aca45b9dee4fac081704bfb279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbb6f295ab4ad3de2d848341dde7446') in 0.020220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006409 seconds.
+  path: Assets/UTD5/5alotpolice-00314-texture.png
+  artifactKey: Guid(36bee0edc01ba264ca7b38d37cfae17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00314-texture.png using Guid(36bee0edc01ba264ca7b38d37cfae17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39aa79bf82f9735f263fc2feda6e9041') in 0.022835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002125 seconds.
+  path: Assets/UTD5/5alotpolice-00317-texture.png
+  artifactKey: Guid(e4aa656bef31d584f88e9b7c723d00e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00317-texture.png using Guid(e4aa656bef31d584f88e9b7c723d00e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1f4485cec8afcf28d2f92822315fa7') in 0.019356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006791 seconds.
+  path: Assets/UTD5/5alotpolice-00320-texture.png
+  artifactKey: Guid(2dfe4a2d169ba6e4d9b39296bec77855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00320-texture.png using Guid(2dfe4a2d169ba6e4d9b39296bec77855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38baad3893026c03cf36304d9874e86e') in 0.019705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.019034 seconds.
+  path: Assets/UTD5/5alotpolice-00324-texture.png
+  artifactKey: Guid(1ce2e6283da60b24fbf705b5882124d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00324-texture.png using Guid(1ce2e6283da60b24fbf705b5882124d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d84889f44bb1fc61ca8238a72375277') in 0.023692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001441 seconds.
+  path: Assets/UTD5/5alotpolice-00327-texture.png
+  artifactKey: Guid(337bb8f85bb33004eabea2ba20636ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00327-texture.png using Guid(337bb8f85bb33004eabea2ba20636ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db35bb5b51515921ae1dfa6f0907c26b') in 0.019734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007653 seconds.
+  path: Assets/UTD5/5alotpolice-00330-texture.png
+  artifactKey: Guid(edd700a085bc15e48be800d8260e5ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00330-texture.png using Guid(edd700a085bc15e48be800d8260e5ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dbc9d7176bf3428bfc42e7391a31e1') in 0.025826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006312 seconds.
+  path: Assets/UTD5/5alotpolice-00334-texture.png
+  artifactKey: Guid(438dca86514284c45870505608318d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00334-texture.png using Guid(438dca86514284c45870505608318d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a96710dca804375846ef5d96788d067') in 0.021120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005183 seconds.
+  path: Assets/UTD5/5alotpolice-00337-texture.png
+  artifactKey: Guid(6decfbacf2ebb3948a8e9bba397ac688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00337-texture.png using Guid(6decfbacf2ebb3948a8e9bba397ac688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48b73fa7e208520dfbab3725e515069') in 0.029299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004964 seconds.
+  path: Assets/UTD5/5alotpolice-00341-texture.png
+  artifactKey: Guid(1ac268f72e94bd44c9750962a64f02d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00341-texture.png using Guid(1ac268f72e94bd44c9750962a64f02d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a67cffd110ce7adc0eb94a1ae2f2b6') in 0.021774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007019 seconds.
+  path: Assets/UTD5/5alotpolice-00344-texture.png
+  artifactKey: Guid(6c0f2220de955f147b8956a1c879a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00344-texture.png using Guid(6c0f2220de955f147b8956a1c879a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db80fa17c2c6013a4337e1a602394a1') in 0.019616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009768 seconds.
+  path: Assets/UTD5/5alotpolice-00347-texture.png
+  artifactKey: Guid(b49cdaefbf67b0142be9fe3f5aa8efe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00347-texture.png using Guid(b49cdaefbf67b0142be9fe3f5aa8efe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba90c4f060a41f57b4817f5647707fe') in 0.019272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006777 seconds.
+  path: Assets/UTD5/5alotpolice-00350-texture.png
+  artifactKey: Guid(f70c011970609c747911e9196d3e533a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00350-texture.png using Guid(f70c011970609c747911e9196d3e533a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07220744218859e75b912695502b8616') in 0.021552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.005502 seconds.
+  path: Assets/UTD5/5alotpolice-00272-texture.png
+  artifactKey: Guid(b1cde1badeec6d644a8fcec1793b674d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00272-texture.png using Guid(b1cde1badeec6d644a8fcec1793b674d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef362a1d11015afd382b12b0d86805a') in 0.019330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017254 seconds.
+  path: Assets/UTD5/5alotpolice-00276-texture.png
+  artifactKey: Guid(f291839769c7fc84a91e028e3797a4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00276-texture.png using Guid(f291839769c7fc84a91e028e3797a4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89008c45f1a9e6b71af9445cc109fd8c') in 0.023826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001647 seconds.
+  path: Assets/UTD5/5alotpolice-00279-texture.png
+  artifactKey: Guid(c5bf1b579ad2fb6498398ae508af56cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00279-texture.png using Guid(c5bf1b579ad2fb6498398ae508af56cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d7f45aa422b481566e2084127e8747') in 0.020876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012380 seconds.
+  path: Assets/UTD5/5alotpolice-00283-texture.png
+  artifactKey: Guid(bd6649f65228c984b8442a379a53d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00283-texture.png using Guid(bd6649f65228c984b8442a379a53d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f752c8ef30086341179d82a0f9357161') in 0.026163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003800 seconds.
+  path: Assets/UTD5/5alotpolice-00287-texture.png
+  artifactKey: Guid(262b423fbaec8c94ab69b47adde26c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00287-texture.png using Guid(262b423fbaec8c94ab69b47adde26c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524382fd927e614189fa56f0805e9893') in 0.016682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017752 seconds.
+  path: Assets/UTD5/5alotpolice-00222-texture.png
+  artifactKey: Guid(bd5203fc2ff37af4ca32ee64c4fb63f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00222-texture.png using Guid(bd5203fc2ff37af4ca32ee64c4fb63f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32474c8c3300fd5a06418b174a7c9f43') in 0.022049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010410 seconds.
+  path: Assets/UTD5/5alotpolice-00226-texture.png
+  artifactKey: Guid(65398bc336984f64ab72e55870e17033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00226-texture.png using Guid(65398bc336984f64ab72e55870e17033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5976f6333356ab7a5648bea681fd45cc') in 0.023597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004422 seconds.
+  path: Assets/UTD5/5alotpolice-00230-texture.png
+  artifactKey: Guid(556d5c1d70c4f8f4fbaf24c27f0cc8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00230-texture.png using Guid(556d5c1d70c4f8f4fbaf24c27f0cc8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd5d08e6c49a649072b9ea273aee0a3') in 0.020287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002670 seconds.
+  path: Assets/UTD5/5alotpolice-00233-texture.png
+  artifactKey: Guid(383ecb4d63247a54caafa2b0ad27980f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00233-texture.png using Guid(383ecb4d63247a54caafa2b0ad27980f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2b70fde8c6297cb941ebfedd6c9e22') in 0.024362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001769 seconds.
+  path: Assets/UTD5/5alotpolice-00236-texture.png
+  artifactKey: Guid(6aa2ce7dfaa43f945aaeddaaaaace834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00236-texture.png using Guid(6aa2ce7dfaa43f945aaeddaaaaace834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593fe9fe17374fb16730ac624b08829b') in 0.024977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003033 seconds.
+  path: Assets/UTD5/5alotpolice-00239-texture.png
+  artifactKey: Guid(0df79dcc598f6964fa44fb9eb80c9f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00239-texture.png using Guid(0df79dcc598f6964fa44fb9eb80c9f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546f462a4fa90298fb04222f5b150b96') in 0.023030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005303 seconds.
+  path: Assets/UTD5/5alotpolice-00242-texture.png
+  artifactKey: Guid(23b65bdffb8a2b44bb1993eb923f73e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00242-texture.png using Guid(23b65bdffb8a2b44bb1993eb923f73e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b7dff905603194d48b87ef76814dcc') in 0.026752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007988 seconds.
+  path: Assets/UTD5/5alotpolice-00246-texture.png
+  artifactKey: Guid(e65aa0400f4f914429c4616d3425f9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00246-texture.png using Guid(e65aa0400f4f914429c4616d3425f9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac2a6791c6556c2b14b463f53eecfc3') in 0.023284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008411 seconds.
+  path: Assets/UTD5/5alotpolice-00249-texture.png
+  artifactKey: Guid(6a9599a82e6ccb24ea4ac20b9b651d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00249-texture.png using Guid(6a9599a82e6ccb24ea4ac20b9b651d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5800d50a8fda18220f9d5743eae991') in 0.025921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015429 seconds.
+  path: Assets/UTD5/5alotpolice-00254-texture.png
+  artifactKey: Guid(bc12745c4821f9244bc992a1c74334ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00254-texture.png using Guid(bc12745c4821f9244bc992a1c74334ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0a9539233b4964c55dc9a4c1b3ffab') in 0.022077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004784 seconds.
+  path: Assets/UTD5/5alotpolice-00257-texture.png
+  artifactKey: Guid(3daa774269c43ed4e9ce1388ae0e7a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00257-texture.png using Guid(3daa774269c43ed4e9ce1388ae0e7a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22e7cc30ed1a2bf28b42eaf1abd425f') in 0.019124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006857 seconds.
+  path: Assets/UTD5/5alotpolice-00260-texture.png
+  artifactKey: Guid(99336a3c9b6d8e949b25fcb33d456243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00260-texture.png using Guid(99336a3c9b6d8e949b25fcb33d456243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e51f0037701c9d3b40545a4b153521c') in 0.024202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/UTD5/5alotpolice-00263-texture.png
+  artifactKey: Guid(2034ea6f458c50a40aa1ab763fa5a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00263-texture.png using Guid(2034ea6f458c50a40aa1ab763fa5a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a07aa24de88b9d94b99d4fe3ccdc5c') in 0.027633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/UTD5/5alotpolice-00266-texture.png
+  artifactKey: Guid(916faf5e0199f424c8eb37a4500dd84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00266-texture.png using Guid(916faf5e0199f424c8eb37a4500dd84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f37cea25e983423be867d22fea9256') in 0.017323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009727 seconds.
+  path: Assets/UTD5/5alotpolice-00269-texture.png
+  artifactKey: Guid(dc55e59e1f229e546a33f1c5251b364f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00269-texture.png using Guid(dc55e59e1f229e546a33f1c5251b364f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a9c5930c167253f7df09962c26a742') in 0.020490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -16,6 +16,15 @@ using UnityEngine.UI;
 
 public class FirstPersonController : MonoBehaviour
 {
+    public bool enableSlide = true;
+    public KeyCode slideKey = KeyCode.LeftControl; // or any key you prefer
+    public float slideSpeed = 10f;
+    public float slideDuration = 0.5f;
+    private bool isSliding = false;
+    private float slideTimer = 0f;
+
+
+    private float wallJumpPowerScale = 0.05f;
     private Rigidbody rb;
 
     #region Camera Movement Variables
@@ -93,7 +102,8 @@ public class FirstPersonController : MonoBehaviour
     #endregion
 
     #region Jump
-
+    public int maxJumpCount = 2;
+    private int currentJumpCount = 0;
     public bool enableJump = true;
     public KeyCode jumpKey = KeyCode.Space;
     public float jumpPower = 5f;
@@ -130,7 +140,35 @@ public class FirstPersonController : MonoBehaviour
     private float timer = 0;
 
     #endregion
+private bool isWallTouching;
+private Vector3 wallNormal;
 
+void OnCollisionStay(Collision other)
+{
+    foreach (ContactPoint contact in other.contacts)
+    {
+        if (Mathf.Abs(contact.normal.y) < 0.1f) // Ensure the wall is vertical
+        {
+            isWallTouching = true;
+            wallNormal = contact.normal;
+            return;
+        }
+    }
+}
+
+void OnCollisionExit(Collision other)
+{
+    isWallTouching = false;
+}
+private void WallJump()
+{
+    if (isWallTouching)
+    {
+        Vector3 jumpDirection = (Vector3.up + wallNormal).normalized;
+        rb.AddForce(jumpDirection * jumpPower * wallJumpPowerScale, ForceMode.Impulse);
+        currentJumpCount = 0; // Reset jump count
+    }
+}
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -202,8 +240,14 @@ public class FirstPersonController : MonoBehaviour
 
     private void Update()
     {
-        #region Camera
 
+        WallJump();
+        #region Camera
+        if (enableSlide && Input.GetKeyDown(slideKey) && !isSliding && isGrounded) // Ensure player can only start sliding if grounded and not already sliding
+        {
+            isSliding = true;
+            slideTimer = slideDuration;
+        }
         // Control camera movement
         if(cameraCanMove)
         {
@@ -326,7 +370,7 @@ public class FirstPersonController : MonoBehaviour
         #region Jump
 
         // Gets input and calls jump method
-        if(enableJump && Input.GetKeyDown(jumpKey) && isGrounded)
+        if(enableJump && Input.GetKeyDown(jumpKey) && (isGrounded || currentJumpCount < maxJumpCount))
         {
             Jump();
         }
@@ -366,6 +410,20 @@ public class FirstPersonController : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (isSliding)
+        {
+            // Apply sliding force
+            Vector3 slideDirection = new Vector3(transform.forward.x, 0, transform.forward.z).normalized;
+            rb.velocity = slideDirection * slideSpeed;
+
+            // Count down the slide timer
+            slideTimer -= Time.fixedDeltaTime;
+            if (slideTimer <= 0)
+            {
+                isSliding = false;
+                rb.velocity = Vector3.zero; // Optionally stop the player completely after sliding
+            }
+        }
         #region Movement
 
         if (playerCanMove)
@@ -452,6 +510,7 @@ public class FirstPersonController : MonoBehaviour
         {
             Debug.DrawRay(origin, direction * distance, Color.red);
             isGrounded = true;
+            currentJumpCount = 0;
         }
         else
         {
@@ -461,6 +520,12 @@ public class FirstPersonController : MonoBehaviour
 
     private void Jump()
     {
+        if (currentJumpCount < maxJumpCount)
+        {
+            rb.AddForce(0f, jumpPower, 0f, ForceMode.Impulse);
+            currentJumpCount++; // Increment jump count on jump
+            isGrounded = false;
+        }
         // Adds force to the player rigidbody to jump
         if (isGrounded)
         {

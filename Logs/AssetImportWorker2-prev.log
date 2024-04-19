@@ -1,0 +1,921 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16250 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/nsung/My project (1)
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55821
+Successfully changed project path to: C:/Users/nsung/My project (1)
+C:/Users/nsung/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3688] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 789984339 [EditorId] 789984339 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85UCC07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3688] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 789984339 [EditorId] 789984339 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85UCC07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 12.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nsung/My project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5955 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012644 seconds.
+- Loaded All Assemblies, in  0.502 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.362 seconds
+Domain Reload Profiling: 862ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (212ms)
+				TypeCache.ScanAssembly (188ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (362ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (285ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.964 seconds
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.863 seconds
+Domain Reload Profiling: 1825ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (594ms)
+		LoadAssemblies (434ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (222ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (865ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (614ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (485ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 5.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.8 KB). Loaded Objects now: 3584.
+Memory consumption went from 156.3 MB to 156.2 MB.
+Total: 6.276800 ms (FindLiveObjects: 0.574000 ms CreateObjectMapping: 0.539900 ms MarkObjects: 4.461200 ms  DeleteObjects: 0.700100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 112162.371974 seconds.
+  path: Assets/UTD5/5alotpolice-00085-texture.png
+  artifactKey: Guid(8ae31790faa1e2744ab083d3852d6487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00085-texture.png using Guid(8ae31790faa1e2744ab083d3852d6487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b53f7d2a2eb484822043c1afa1cb2b0') in 0.101867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000785 seconds.
+  path: Assets/UTD5/5alotpolice-00096-texture.png
+  artifactKey: Guid(a91a57ebb3896db48bef491685be338b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00096-texture.png using Guid(a91a57ebb3896db48bef491685be338b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3383cc4477eb46a05ebc2c9de7d1c2') in 0.022515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/UTD5/5alotpolice-00098-texture.png
+  artifactKey: Guid(3ed6cc18dc2767f45b2f16cc1214e5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00098-texture.png using Guid(3ed6cc18dc2767f45b2f16cc1214e5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc60ff4580fffb4fd7b3361b4db2963') in 0.020887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008897 seconds.
+  path: Assets/UTD5/5alotpolice-00101-texture.png
+  artifactKey: Guid(2058e8f88fc694543aca7104a78bec13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00101-texture.png using Guid(2058e8f88fc694543aca7104a78bec13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823255972bed3c7f70c3fdc309dc7fea') in 0.026343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.104194 seconds.
+  path: Assets/UTD5/5alotpolice-00102-texture.png
+  artifactKey: Guid(3c0abf3e8d393634eb45572688f19e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00102-texture.png using Guid(3c0abf3e8d393634eb45572688f19e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4d9f81cbeb7d6b5820dc2288e10af3') in 0.024039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/UTD5/5alotpolice-00105-texture.png
+  artifactKey: Guid(98132fff54ee0b448855d01caf1a6af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00105-texture.png using Guid(98132fff54ee0b448855d01caf1a6af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cb06d6f47a44789b25af4b6dcabba6') in 0.017815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004764 seconds.
+  path: Assets/UTD5/5alotpolice-00108-texture.png
+  artifactKey: Guid(c3ce5206e88314445b24eda6def49f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00108-texture.png using Guid(c3ce5206e88314445b24eda6def49f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c493ff32b61b50dffdce7caba1cab42') in 0.027301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004000 seconds.
+  path: Assets/UTD5/5alotpolice-00112-texture.png
+  artifactKey: Guid(19e8b48a3189e1243a0acb28947fa6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00112-texture.png using Guid(19e8b48a3189e1243a0acb28947fa6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e95a11f2d90f88d389916461ec8bd2') in 0.020230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010190 seconds.
+  path: Assets/UTD5/5alotpolice-00115-texture.png
+  artifactKey: Guid(d4b39677480a8494395df2968a2e0dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00115-texture.png using Guid(d4b39677480a8494395df2968a2e0dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130c0cffad0cb264f8bedb61e1f31b9c') in 0.019760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007419 seconds.
+  path: Assets/UTD5/5alotpolice-00118-texture.png
+  artifactKey: Guid(8e3fa42fb66d3b4458b6c66c956242e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00118-texture.png using Guid(8e3fa42fb66d3b4458b6c66c956242e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ed5264dfb5ed588b11e4694686e20e') in 0.023978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003295 seconds.
+  path: Assets/UTD5/5alotpolice-00121-texture.png
+  artifactKey: Guid(f685d863e5c5a414d9a067a27ee7b311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00121-texture.png using Guid(f685d863e5c5a414d9a067a27ee7b311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b01c79fccc967b92acc8c6a1ff26aa') in 0.019099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007395 seconds.
+  path: Assets/UTD5/5alotpolice-00124-texture.png
+  artifactKey: Guid(55d9d85f00fc02943af607e638bd7f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00124-texture.png using Guid(55d9d85f00fc02943af607e638bd7f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dbf129e6af9c081bc46b068eefa655') in 0.014683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009054 seconds.
+  path: Assets/UTD5/5alotpolice-00127-texture.png
+  artifactKey: Guid(ea309e9b30ea3d544afb36906fb211ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00127-texture.png using Guid(ea309e9b30ea3d544afb36906fb211ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa6eb08f5a7817f8ac3949c6c12f19b') in 0.031851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002723 seconds.
+  path: Assets/UTD5/5alotpolice-00130-texture.png
+  artifactKey: Guid(a64c31b8bd947df4e9eff3ab5ac48afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00130-texture.png using Guid(a64c31b8bd947df4e9eff3ab5ac48afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62666056f0fded73675101a5b7d07b4c') in 0.019562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006460 seconds.
+  path: Assets/UTD5/5alotpolice-00133-texture.png
+  artifactKey: Guid(ccf02fa9b89b8fd4cbfdd264792b1252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00133-texture.png using Guid(ccf02fa9b89b8fd4cbfdd264792b1252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2390425af841dc701dba0b321641bfe5') in 0.021552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004574 seconds.
+  path: Assets/UTD5/5alotpolice-00136-texture.png
+  artifactKey: Guid(4fe85563bf3ae2a46882f3531ae939f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00136-texture.png using Guid(4fe85563bf3ae2a46882f3531ae939f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf4079de692f9286d4ece6000e7a161') in 0.015105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008541 seconds.
+  path: Assets/UTD5/5alotpolice-00139-texture.png
+  artifactKey: Guid(3d89f4fc37b9b6449a07718790d9dccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00139-texture.png using Guid(3d89f4fc37b9b6449a07718790d9dccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f7ad5dae62558929327b04cefedddc') in 0.018067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004453 seconds.
+  path: Assets/UTD5/5alotpolice-00142-texture.png
+  artifactKey: Guid(c78bbccc8783ae94093be47d1eff022b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00142-texture.png using Guid(c78bbccc8783ae94093be47d1eff022b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64459e42c0f5b88a46ae1dbaf8e4b878') in 0.021150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005905 seconds.
+  path: Assets/UTD5/5alotpolice-00145-texture.png
+  artifactKey: Guid(c172895774d16c247a7330456b985561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00145-texture.png using Guid(c172895774d16c247a7330456b985561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5f3d845161dc26fa755210c1f066de') in 0.017860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000902 seconds.
+  path: Assets/UTD5/5alotpolice-00147-texture.png
+  artifactKey: Guid(5ee7c0d5f6099904c8644fbe5a514f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00147-texture.png using Guid(5ee7c0d5f6099904c8644fbe5a514f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87698a6678ac19f4457a239aa8c4db34') in 0.018576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007265 seconds.
+  path: Assets/UTD5/5alotpolice-00150-texture.png
+  artifactKey: Guid(f04580c90f9495a4ea7f091c9440252b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00150-texture.png using Guid(f04580c90f9495a4ea7f091c9440252b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01201fe1dd2e4b70305a1419e418ca23') in 0.019683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008852 seconds.
+  path: Assets/UTD5/5alotpolice-00153-texture.png
+  artifactKey: Guid(ce57a3c08ac11bc4ab6800e4b74102eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00153-texture.png using Guid(ce57a3c08ac11bc4ab6800e4b74102eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48d071fa70c12befd5745d9241364df') in 0.027575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001435 seconds.
+  path: Assets/UTD5/5alotpolice-00156-texture.png
+  artifactKey: Guid(ae7a814a548a3214291763b42f7e6f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00156-texture.png using Guid(ae7a814a548a3214291763b42f7e6f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cee5bdf38a71b6966e4fd3cb279c970') in 0.020896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008318 seconds.
+  path: Assets/UTD5/5alotpolice-00159-texture.png
+  artifactKey: Guid(f17d1adaf7f86d64db5d16679a570017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00159-texture.png using Guid(f17d1adaf7f86d64db5d16679a570017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daaad2d800910ab61c09368b4e00bf78') in 0.021157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009277 seconds.
+  path: Assets/UTD5/5alotpolice-00162-texture.png
+  artifactKey: Guid(a9e5443f3f2ca3141a96d7159aac177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00162-texture.png using Guid(a9e5443f3f2ca3141a96d7159aac177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e981120300854575283005f94724f3e8') in 0.034383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010254 seconds.
+  path: Assets/UTD5/5alotpolice-00166-texture.png
+  artifactKey: Guid(3b63d4922eaa6ee4b96e3b3a0a0d1435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00166-texture.png using Guid(3b63d4922eaa6ee4b96e3b3a0a0d1435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69974114552830f882cfa1f909e5df1') in 0.052161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/UTD5/5alotpolice-00170-texture.png
+  artifactKey: Guid(3e34266b6ed7d8b40b91e0fce20cd488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00170-texture.png using Guid(3e34266b6ed7d8b40b91e0fce20cd488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d42a7a517f04ad636ddd99db95a66b') in 0.074901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002562 seconds.
+  path: Assets/UTD5/5alotpolice-00174-texture.png
+  artifactKey: Guid(effcfc811282e2d47b5f742db309b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00174-texture.png using Guid(effcfc811282e2d47b5f742db309b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b0d14b21bfb420359589eee950bb1c') in 0.062129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UTD5/5alotpolice-00177-texture.png
+  artifactKey: Guid(2f4cfcfc373c4534780f747eec8d74e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00177-texture.png using Guid(2f4cfcfc373c4534780f747eec8d74e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce84ca2efe9067b9b5867a28a446dd90') in 0.057179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.051871 seconds.
+  path: Assets/UTD5/5alotpolice-00185-texture.png
+  artifactKey: Guid(baf27ddaa25d17d498d89813c69706e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00185-texture.png using Guid(baf27ddaa25d17d498d89813c69706e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d2da1ac8bbb5697407299dff850b87') in 0.040622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UTD5/5alotpolice-00190-texture.png
+  artifactKey: Guid(f9d76c14d71c1e94b989f949329dad16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00190-texture.png using Guid(f9d76c14d71c1e94b989f949329dad16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de8d9dbf8ad476b598213ab958619d9') in 0.056874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/UTD5/5alotpolice-00194-texture.png
+  artifactKey: Guid(b7bcd5204471c3f4f8e331d693af995b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00194-texture.png using Guid(b7bcd5204471c3f4f8e331d693af995b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8b7eb5577352c0d2de1e141a236365') in 0.043572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UTD5/5alotpolice-00197-texture.png
+  artifactKey: Guid(fe9db7b5d9a31a8458952e0864c644f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00197-texture.png using Guid(fe9db7b5d9a31a8458952e0864c644f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8917c6cfb7cca524d684f4ba4c2050') in 0.035120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UTD5/5alotpolice-00195-texture.png
+  artifactKey: Guid(80c5eb45e8c48924ab0756b59197480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00195-texture.png using Guid(80c5eb45e8c48924ab0756b59197480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32157c97ac7cb425deee52dabfe7f4f') in 0.026069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005580 seconds.
+  path: Assets/UTD5/5alotpolice-00203-texture.png
+  artifactKey: Guid(5150bc5abd0fe8d4cb892e8626ce87d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00203-texture.png using Guid(5150bc5abd0fe8d4cb892e8626ce87d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab7cf0ce6b8de24c9167c3c81043c0e') in 0.031632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.966432 seconds.
+  path: Assets/UTD5/5alotpolice-00204-texture.png
+  artifactKey: Guid(ce4674c3970dc9e488a6ca3403291eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00204-texture.png using Guid(ce4674c3970dc9e488a6ca3403291eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc638f986f54b7a00c838efc1867548') in 0.027516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002943 seconds.
+  path: Assets/UTD5/5alotpolice-00207-texture.png
+  artifactKey: Guid(3a0fc4c1590f4d949a15f854a3239401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00207-texture.png using Guid(3a0fc4c1590f4d949a15f854a3239401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3118287dffd700f8ec5e6aeb9051bfb8') in 0.023282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011414 seconds.
+  path: Assets/UTD5/5alotpolice-00210-texture.png
+  artifactKey: Guid(80c9bdce9645b324d809c940872a8cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00210-texture.png using Guid(80c9bdce9645b324d809c940872a8cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7361733932f50eef0d8e68b930e2f0c3') in 0.032534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/UTD5/5alotpolice-00213-texture.png
+  artifactKey: Guid(4221355ca0d67264686178a662709f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00213-texture.png using Guid(4221355ca0d67264686178a662709f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de35f2ff78697ecd6dcde86d906f936e') in 0.025007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003148 seconds.
+  path: Assets/UTD5/5alotpolice-00216-texture.png
+  artifactKey: Guid(f9b3ddad6fbe2824fb08d4049600068b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00216-texture.png using Guid(f9b3ddad6fbe2824fb08d4049600068b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddeb597097c5a12f9644632cfbcd8c1f') in 0.024063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007117 seconds.
+  path: Assets/UTD5/5alotpolice-00219-texture.png
+  artifactKey: Guid(77e148b826b302c4e9757cfcd029ef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00219-texture.png using Guid(77e148b826b302c4e9757cfcd029ef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7df9522548e68ea9a0a59da7ea2281') in 0.030992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004378 seconds.
+  path: Assets/UTD5/5alotpolice-00288-texture.png
+  artifactKey: Guid(a9c4480eef3fbb142ac01d2825c6b0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00288-texture.png using Guid(a9c4480eef3fbb142ac01d2825c6b0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81df07734feebae45a80ef3b58c44bae') in 0.029900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001734 seconds.
+  path: Assets/UTD5/5alotpolice-00291-texture.png
+  artifactKey: Guid(546a1a974c5191f4dad9e3ae5f28aa7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00291-texture.png using Guid(546a1a974c5191f4dad9e3ae5f28aa7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69b9b2470cd56abb0edfdce819e4f15') in 0.021144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000904 seconds.
+  path: Assets/UTD5/5alotpolice-00293-texture.png
+  artifactKey: Guid(3be4903774269de4d8f5217b5649d8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00293-texture.png using Guid(3be4903774269de4d8f5217b5649d8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276c3808e3396adc7f907e10a7770a6a') in 0.031433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010478 seconds.
+  path: Assets/UTD5/5alotpolice-00297-texture.png
+  artifactKey: Guid(adc6068131d52f4468ba66c66bee6438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00297-texture.png using Guid(adc6068131d52f4468ba66c66bee6438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5cd55e6f136661828955267ca44759') in 0.031122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004915 seconds.
+  path: Assets/UTD5/5alotpolice-00301-texture.png
+  artifactKey: Guid(e34e1f6fcd20e324aa195f8a5291b9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00301-texture.png using Guid(e34e1f6fcd20e324aa195f8a5291b9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e9c2d5f10ccda7e912b3a20d75942e') in 0.024286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009290 seconds.
+  path: Assets/UTD5/5alotpolice-00304-texture.png
+  artifactKey: Guid(6a3788e60296411439aeb524721153b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00304-texture.png using Guid(6a3788e60296411439aeb524721153b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390972649ade9e2c658bcccc508a8546') in 0.025878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004366 seconds.
+  path: Assets/UTD5/5alotpolice-00307-texture.png
+  artifactKey: Guid(04d8475d14a7cbf488d3d009ccf5f2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00307-texture.png using Guid(04d8475d14a7cbf488d3d009ccf5f2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb091dcda317a7f45f90a8c33a8a17a') in 0.020028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004698 seconds.
+  path: Assets/UTD5/5alotpolice-00310-texture.png
+  artifactKey: Guid(3de6efd29d483e847a8064ef99d9b873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00310-texture.png using Guid(3de6efd29d483e847a8064ef99d9b873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6648478d17101565fd163c2508d86157') in 0.019181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008935 seconds.
+  path: Assets/UTD5/5alotpolice-00313-texture.png
+  artifactKey: Guid(6d349ddb96cd0ac42892b1d0649cd33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00313-texture.png using Guid(6d349ddb96cd0ac42892b1d0649cd33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2980db79028b0edb56f99f076ca75d1') in 0.023315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003961 seconds.
+  path: Assets/UTD5/5alotpolice-00316-texture.png
+  artifactKey: Guid(cdd341cc27ca3e149a32645adbc88254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00316-texture.png using Guid(cdd341cc27ca3e149a32645adbc88254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080b6d9970e402baedc6bfd43d388a97') in 0.020875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003784 seconds.
+  path: Assets/UTD5/5alotpolice-00319-texture.png
+  artifactKey: Guid(47af1458dc83b344ba9f53eb00f0969f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00319-texture.png using Guid(47af1458dc83b344ba9f53eb00f0969f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afba3594dfb2dbe31f3420d35e58b3e9') in 0.027501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008808 seconds.
+  path: Assets/UTD5/5alotpolice-00323-texture.png
+  artifactKey: Guid(950d841fa2f6d804c8934689036af4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00323-texture.png using Guid(950d841fa2f6d804c8934689036af4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ff442a9b9812df193791bd031d1f23') in 0.021503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006505 seconds.
+  path: Assets/UTD5/5alotpolice-00326-texture.png
+  artifactKey: Guid(5c8793e8d101a6a4691482e6a07a019d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00326-texture.png using Guid(5c8793e8d101a6a4691482e6a07a019d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b87c1508bfb5c486fb4940b3563ad6') in 0.023268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002755 seconds.
+  path: Assets/UTD5/5alotpolice-00329-texture.png
+  artifactKey: Guid(a0cacd5bd0597f34490008de65960a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00329-texture.png using Guid(a0cacd5bd0597f34490008de65960a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214064690f1a61f07caf885b03c40c08') in 0.020237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005009 seconds.
+  path: Assets/UTD5/5alotpolice-00332-texture.png
+  artifactKey: Guid(786cd184e79f524409dbd1cccb672679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00332-texture.png using Guid(786cd184e79f524409dbd1cccb672679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc563a66b4bef35667f5dcd6daff177') in 0.025193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006519 seconds.
+  path: Assets/UTD5/5alotpolice-00336-texture.png
+  artifactKey: Guid(8513b326a8b67f941bab9638b5bd975d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00336-texture.png using Guid(8513b326a8b67f941bab9638b5bd975d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bac871f412192d21fbb3223232d72f') in 0.020073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010214 seconds.
+  path: Assets/UTD5/5alotpolice-00339-texture.png
+  artifactKey: Guid(5c6f186d380ced84e9b9a939063f7a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00339-texture.png using Guid(5c6f186d380ced84e9b9a939063f7a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284d3b344fa0e7c743f988706a7ce174') in 0.028902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004204 seconds.
+  path: Assets/UTD5/5alotpolice-00343-texture.png
+  artifactKey: Guid(2708a631f07300b4dbe4751e8a20a8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00343-texture.png using Guid(2708a631f07300b4dbe4751e8a20a8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458242cc1e8b13994e81e3dbadf9bdda') in 0.015770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001878 seconds.
+  path: Assets/UTD5/5alotpolice-00345-texture.png
+  artifactKey: Guid(956f98f360a454b4f8cffe8a979bce80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00345-texture.png using Guid(956f98f360a454b4f8cffe8a979bce80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d1ac1d7c461f82028f248768ae5d51') in 0.023068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005018 seconds.
+  path: Assets/UTD5/5alotpolice-00348-texture.png
+  artifactKey: Guid(b634032b7657e4c48b969bb6fe5246e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00348-texture.png using Guid(b634032b7657e4c48b969bb6fe5246e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1dffb0ef8cd1c3d6bf809103436dba') in 0.021627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003636 seconds.
+  path: Assets/UTD5/5alotpolice-00351-texture.png
+  artifactKey: Guid(de53bb50835125b4189834dcd88a3c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00351-texture.png using Guid(de53bb50835125b4189834dcd88a3c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6558d42d804532a4f544df84153bd6b') in 0.021146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.990431 seconds.
+  path: Assets/UTD5/5alotpolice-00271-texture.png
+  artifactKey: Guid(0f07f093937afdf4692b8bb989ac4cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00271-texture.png using Guid(0f07f093937afdf4692b8bb989ac4cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f886ae992993aeec71467edac47ebe51') in 0.027588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005566 seconds.
+  path: Assets/UTD5/5alotpolice-00275-texture.png
+  artifactKey: Guid(f814878c51e70d74791a4a674674da85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00275-texture.png using Guid(f814878c51e70d74791a4a674674da85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5f382c3d7285b52dd34cd68d722a37') in 0.018819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009920 seconds.
+  path: Assets/UTD5/5alotpolice-00278-texture.png
+  artifactKey: Guid(3e4aaafb3cfb6c24084586bc0e8ba423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00278-texture.png using Guid(3e4aaafb3cfb6c24084586bc0e8ba423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1820881105ad07fce02fa87cc502b1f2') in 0.024509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006693 seconds.
+  path: Assets/UTD5/5alotpolice-00282-texture.png
+  artifactKey: Guid(11a3718793ad99749a6a3972f9712b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00282-texture.png using Guid(11a3718793ad99749a6a3972f9712b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4c4760c516707da167a0655dcc242e') in 0.018821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006727 seconds.
+  path: Assets/UTD5/5alotpolice-00285-texture.png
+  artifactKey: Guid(a739250e1f464be47897a5fc447f634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00285-texture.png using Guid(a739250e1f464be47897a5fc447f634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b231483180160f02b2a135bb39dc9745') in 0.015462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024563 seconds.
+  path: Assets/UTD5/5alotpolice-00221-texture.png
+  artifactKey: Guid(638597230fc97cd4ba610cc49c465138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00221-texture.png using Guid(638597230fc97cd4ba610cc49c465138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053ca942043b2ac640ba1edc34974e83') in 0.014070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007895 seconds.
+  path: Assets/UTD5/5alotpolice-00224-texture.png
+  artifactKey: Guid(412058b60c6cb994f904daa9ca14c3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00224-texture.png using Guid(412058b60c6cb994f904daa9ca14c3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbe0615e9a48861deed9fd2dd2993b5') in 0.024818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008700 seconds.
+  path: Assets/UTD5/5alotpolice-00228-texture.png
+  artifactKey: Guid(e94fb1b8e83272948a3a2400dda19603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00228-texture.png using Guid(e94fb1b8e83272948a3a2400dda19603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2cc6d116bba510a1ba3ae2660541da') in 0.018484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008462 seconds.
+  path: Assets/UTD5/5alotpolice-00232-texture.png
+  artifactKey: Guid(c4ada94e8d45e0040a54430eae5d0fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00232-texture.png using Guid(c4ada94e8d45e0040a54430eae5d0fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b774df614d51721b8fa47cb2cfa6cef') in 0.014365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000795 seconds.
+  path: Assets/UTD5/5alotpolice-00234-texture.png
+  artifactKey: Guid(4353faa6e2daec94aba14b131d8cea7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00234-texture.png using Guid(4353faa6e2daec94aba14b131d8cea7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a384a9500378bc5d8d7ab2494f779cbc') in 0.020384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007580 seconds.
+  path: Assets/UTD5/5alotpolice-00237-texture.png
+  artifactKey: Guid(d7fd65f2bf9b86d42b32a960bda1c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00237-texture.png using Guid(d7fd65f2bf9b86d42b32a960bda1c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b73e4ca4754af9c0f728f38053a823') in 0.027398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UTD5/5alotpolice-00240-texture.png
+  artifactKey: Guid(9c70fc360f74f364fbd645c60f6e3e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00240-texture.png using Guid(9c70fc360f74f364fbd645c60f6e3e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd569ec3f144567fa7a6b244c932d77cf') in 0.027263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007071 seconds.
+  path: Assets/UTD5/5alotpolice-00244-texture.png
+  artifactKey: Guid(83bb0a92ff005ff4f831f9746cd11931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00244-texture.png using Guid(83bb0a92ff005ff4f831f9746cd11931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b340ddafb851c3ef6cb50806b3d605ec') in 0.020672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010956 seconds.
+  path: Assets/UTD5/5alotpolice-00247-texture.png
+  artifactKey: Guid(cfddb3b80ab64454a9b67bf11f0171a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00247-texture.png using Guid(cfddb3b80ab64454a9b67bf11f0171a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b927f17a762cc84a709323d45df37b74') in 0.027373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/UTD5/5alotpolice-00250-texture.png
+  artifactKey: Guid(ec1d3e086a415234abdb972dc11adbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00250-texture.png using Guid(ec1d3e086a415234abdb972dc11adbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce7155189d95bdaa9a083d1221058ca') in 0.024887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/UTD5/5alotpolice-00253-texture.png
+  artifactKey: Guid(23c72252f7f5e4f4da1b7accc801236f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00253-texture.png using Guid(23c72252f7f5e4f4da1b7accc801236f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bb5247543bbf9771091c94d12b3521') in 0.018642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005635 seconds.
+  path: Assets/UTD5/5alotpolice-00256-texture.png
+  artifactKey: Guid(b520051899c7ed54ba0c396375011f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00256-texture.png using Guid(b520051899c7ed54ba0c396375011f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a591a92780eaeee3077331eefd6e69') in 0.020211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007369 seconds.
+  path: Assets/UTD5/5alotpolice-00259-texture.png
+  artifactKey: Guid(100cf48b5d8be604a859e983f1c42d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00259-texture.png using Guid(100cf48b5d8be604a859e983f1c42d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb595278840a700eb994046a140163f') in 0.015732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009010 seconds.
+  path: Assets/UTD5/5alotpolice-00262-texture.png
+  artifactKey: Guid(8ada3881e74dc044b85901b16bec755b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00262-texture.png using Guid(8ada3881e74dc044b85901b16bec755b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4570e286c6d93b014feb89018d155d') in 0.017754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008494 seconds.
+  path: Assets/UTD5/5alotpolice-00265-texture.png
+  artifactKey: Guid(8f9d8bda30b8c1345ad40dd0c39d9a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00265-texture.png using Guid(8f9d8bda30b8c1345ad40dd0c39d9a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523976269d9fd4739e0ac8294c24c521') in 0.025294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001078 seconds.
+  path: Assets/UTD5/5alotpolice-00268-texture.png
+  artifactKey: Guid(a27eac0990657a644827c27788757472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD5/5alotpolice-00268-texture.png using Guid(a27eac0990657a644827c27788757472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e282b55be393185e7bd6c667dd977b5') in 0.017854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 26.380100 seconds.
+  path: Assets/UTD.blend
+  artifactKey: Guid(74f8b4d7f55291943aee24ae007b9077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD.blend using Guid(74f8b4d7f55291943aee24ae007b9077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb4f319e2f354da43dc3fc30788b2b6') in 0.002070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.662 seconds
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.433 seconds
+Domain Reload Profiling: 2093ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (429ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1434ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (489ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3591.
+Memory consumption went from 154.1 MB to 154.0 MB.
+Total: 2.749300 ms (FindLiveObjects: 0.266000 ms CreateObjectMapping: 0.213800 ms MarkObjects: 2.214600 ms  DeleteObjects: 0.053800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
