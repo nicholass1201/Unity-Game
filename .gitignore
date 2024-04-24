@@ -1,0 +1,7 @@
+# Add this inside .gitignore
+.vscode/
+Library/
+Logs/
+Temp/
+UserSettings/
+# And any other directories that should not be tracked
