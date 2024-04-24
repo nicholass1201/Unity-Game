@@ -1,0 +1,516 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16250 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nsung/My project (4)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54463
+Successfully changed project path to: C:/Users/nsung/My project (4)
+C:/Users/nsung/My project (4)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18040] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 4083380008 [EditorId] 4083380008 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85UCC07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18040] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 4083380008 [EditorId] 4083380008 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85UCC07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 8.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nsung/My project (4)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5955 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009479 seconds.
+- Loaded All Assemblies, in  0.397 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.275 seconds
+Domain Reload Profiling: 671ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (131ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (275ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (217ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.763 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.597 seconds
+Domain Reload Profiling: 1357ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (483ms)
+		LoadAssemblies (421ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (597ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.4 KB). Loaded Objects now: 3585.
+Memory consumption went from 156.2 MB to 156.2 MB.
+Total: 3.549800 ms (FindLiveObjects: 0.352700 ms CreateObjectMapping: 0.420000 ms MarkObjects: 2.640000 ms  DeleteObjects: 0.136300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 171293.440660 seconds.
+  path: Assets/UTD2/2bsbcall-00015-texture.png
+  artifactKey: Guid(cbf208586e14c1e42b273b5d191232f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00015-texture.png using Guid(cbf208586e14c1e42b273b5d191232f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e45f1214990fee56a62c146e4c204b') in 0.069468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UTD2/2bsbcall-00050-texture.png
+  artifactKey: Guid(e6a08f51532ee3945a2555a5b8e98fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00050-texture.png using Guid(e6a08f51532ee3945a2555a5b8e98fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00346dfe098668d2ca9ea5f268a6a5f7') in 0.016582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UTD15/15tennis-00026-texture.png
+  artifactKey: Guid(d4ab4ae60c5c6e04d8bc48d08a7f93b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00026-texture.png using Guid(d4ab4ae60c5c6e04d8bc48d08a7f93b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4174ab76929237686fd0be4702b0c3') in 0.011243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UTD15/15tennis-00069-texture.png
+  artifactKey: Guid(d6e125c594b7d3647a271c51658f8c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00069-texture.png using Guid(d6e125c594b7d3647a271c51658f8c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954587e59d3310695ce61f197150816a') in 0.012376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UTD15/15tennis-00025-texture.png
+  artifactKey: Guid(62aefdf912e161a488ea13fe0d2d4487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00025-texture.png using Guid(62aefdf912e161a488ea13fe0d2d4487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea76fd679c600aa5745428910bf80fc7') in 0.010874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UTD2/2bsbcall-00009-texture.png
+  artifactKey: Guid(0d021303c4464c64285b8c30301a1a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00009-texture.png using Guid(0d021303c4464c64285b8c30301a1a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b654699a5f5f38a0662ea74da8f5f5') in 0.013380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UTD15/15tennis-00056-texture.png
+  artifactKey: Guid(5a1faa0e90f712d4cb6f9e430d75d28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00056-texture.png using Guid(5a1faa0e90f712d4cb6f9e430d75d28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e08e7f632b7f72ead2f2cd0e8088435') in 0.012835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UTD2/2bsbcall-00069-texture.png
+  artifactKey: Guid(13c7ce3e89a8e9e428cbd1727cc90655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00069-texture.png using Guid(13c7ce3e89a8e9e428cbd1727cc90655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac5feb7f21a2349bafaa2947ea84139') in 0.010353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UTD2/2bsbcall-00002-texture.png
+  artifactKey: Guid(ebef4651f3b932a47bc8111505434871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00002-texture.png using Guid(ebef4651f3b932a47bc8111505434871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee58260d9275fc5b0ddfe826d6d5008a') in 0.012463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UTD2/2bsbcall-00053-texture.png
+  artifactKey: Guid(e8850251704093d4fa9a25f3536852d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00053-texture.png using Guid(e8850251704093d4fa9a25f3536852d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5b5f5c5d976bcaa5e5f150f76b6862') in 0.012727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UTD2/2bsbcall-00057-texture.png
+  artifactKey: Guid(6ecdcfccd712844439bd2126df5ebab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00057-texture.png using Guid(6ecdcfccd712844439bd2126df5ebab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4925e7732ddcef346002a99210a3bb') in 0.014571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UTD2/2bsbcall-00026-texture.png
+  artifactKey: Guid(537b4a730683f2240812c0545ebc2abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00026-texture.png using Guid(537b4a730683f2240812c0545ebc2abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68128fc3b37e0dde4cdef27ecb249578') in 0.010128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UTD2/2bsbcall-00080-texture.png
+  artifactKey: Guid(57d84981b5f9aba449d7133980180625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00080-texture.png using Guid(57d84981b5f9aba449d7133980180625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd490347097a7b2e342f4331b2a01984c') in 0.011050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UTD15/15tennis-00050-texture.png
+  artifactKey: Guid(c0eca4cac88b803418b56321746ddfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00050-texture.png using Guid(c0eca4cac88b803418b56321746ddfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c91dbe74219b701465408c00ec5d2d') in 0.012266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/UTD2/2bsbcall-00017-texture.png
+  artifactKey: Guid(8fcb3f06b8cf9c446b5a346083db4310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00017-texture.png using Guid(8fcb3f06b8cf9c446b5a346083db4310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2cb41d143113fc7e9d7e9cc93723bf7') in 0.015164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UTD15/15tennis-00064-texture.png
+  artifactKey: Guid(08416bf88654af548b9c2071bfb236e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00064-texture.png using Guid(08416bf88654af548b9c2071bfb236e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e201ca1fd2f1056f56525679e6e88bc') in 0.010995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UTD15/15tennis-00041-texture.png
+  artifactKey: Guid(e90f158d4d069524caea7016c339766d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00041-texture.png using Guid(e90f158d4d069524caea7016c339766d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877e9973060b496564c7009520e52d2a') in 0.012430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UTD15/15tennis-00082-texture.png
+  artifactKey: Guid(37232a3643925924898bb60aee03b1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00082-texture.png using Guid(37232a3643925924898bb60aee03b1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f05e8e31dfb8ec5cb0d442e3cd259c0') in 0.013085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UTD2/2bsbcall-00067-texture.png
+  artifactKey: Guid(c04d59cadff7ce948918267ab343e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00067-texture.png using Guid(c04d59cadff7ce948918267ab343e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb9a195fbb61c98a7187d469e966fc3') in 0.010482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/UTD15/15tennis-00030-texture.png
+  artifactKey: Guid(a7bfe418fa4c61b4ab0dd046017618d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00030-texture.png using Guid(a7bfe418fa4c61b4ab0dd046017618d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90d7ebcf2b4def73a79710b5560241b') in 0.014084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UTD2/2bsbcall-00041-texture.png
+  artifactKey: Guid(29148f73724468c4ea2ac9921db53b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00041-texture.png using Guid(29148f73724468c4ea2ac9921db53b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0e5672eb69fb16c3c74563f481824e') in 0.012008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UTD15/15tennis-00067-texture.png
+  artifactKey: Guid(e21e412d25d83ae439be7cfcc2adda69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00067-texture.png using Guid(e21e412d25d83ae439be7cfcc2adda69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a826e0f1d9854cd0e34266623b4ae905') in 0.011931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UTD2/2bsbcall-00018-texture.png
+  artifactKey: Guid(35ce113854418b640af6c459e73d8703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00018-texture.png using Guid(35ce113854418b640af6c459e73d8703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a3b8338a7a5ce11bfa621f762565fc') in 0.011445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UTD15/15tennis-00058-texture.png
+  artifactKey: Guid(8425776bd890f1d418272cb155930516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00058-texture.png using Guid(8425776bd890f1d418272cb155930516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562f8fd2129f9cd6a45c24496150b2b0') in 0.010601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UTD15/15tennis-00021-texture.png
+  artifactKey: Guid(621d23ecd1438fe4caee9d88ee68d4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00021-texture.png using Guid(621d23ecd1438fe4caee9d88ee68d4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9faf5944f0fa1a52695a27cdc4a2a5bb') in 0.011756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UTD2/2bsbcall-00049-texture.png
+  artifactKey: Guid(d06135e586fb60142af984a03055ba35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00049-texture.png using Guid(d06135e586fb60142af984a03055ba35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe03ea47d9aaf97234a4edb356fbcac') in 0.011058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UTD15/15tennis-00006-texture.png
+  artifactKey: Guid(b9894feea22d1cf4e976d0b03e4eb387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00006-texture.png using Guid(b9894feea22d1cf4e976d0b03e4eb387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85a28bdea38a16d033a883c77f323f8') in 0.010439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UTD15/15tennis-00016-texture.png
+  artifactKey: Guid(cf15f01027c5b1f41ab00bfef14a062e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00016-texture.png using Guid(cf15f01027c5b1f41ab00bfef14a062e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363bc215c3aac335ec1f7a57987f0b5f') in 0.010114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UTD2/2bsbcall-00063-texture.png
+  artifactKey: Guid(bbf4add495ca6d34a833834942ab9935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00063-texture.png using Guid(bbf4add495ca6d34a833834942ab9935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f9eb4e74506e8c02e1980099e785f2') in 0.010927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UTD2/2bsbcall-00031-texture.png
+  artifactKey: Guid(de04cc597063c1241b864a504427de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00031-texture.png using Guid(de04cc597063c1241b864a504427de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea40b83771b28310f7427c016ce90e5') in 0.010639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UTD15/15tennis-00051-texture.png
+  artifactKey: Guid(dbfc39421c0a4a343b909025efe7b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00051-texture.png using Guid(dbfc39421c0a4a343b909025efe7b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc5116cab894d34531096a96ef00152') in 0.012700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UTD2/2bsbcall-00054-texture.png
+  artifactKey: Guid(b39478a4bf312fb4394095109eeb1140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00054-texture.png using Guid(b39478a4bf312fb4394095109eeb1140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f4dfcdeab6c72835d582446c92b04d') in 0.011394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UTD2/2bsbcall-00068-texture.png
+  artifactKey: Guid(771bde0c71cdb004090ae1d0d41770ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00068-texture.png using Guid(771bde0c71cdb004090ae1d0d41770ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e977bcfe8dc55bb12911cc5db59b27') in 0.013513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UTD2/2bsbcall-00073-texture.png
+  artifactKey: Guid(927b024d6975cb74885592438db9990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00073-texture.png using Guid(927b024d6975cb74885592438db9990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14428eb86a47354c5280244798c0e00f') in 0.010870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UTD2/2bsbcall-00075-texture.png
+  artifactKey: Guid(3cc9c8335186861459be67a1b282ab7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00075-texture.png using Guid(3cc9c8335186861459be67a1b282ab7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fb9bc4671e9c8792f7f72a4da8687c') in 0.012648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UTD15/15tennis-00079-texture.png
+  artifactKey: Guid(a15b64b440a699941abacd1e6fa26fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00079-texture.png using Guid(a15b64b440a699941abacd1e6fa26fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea7228b2ae4f0ddf16d458bda478b62') in 0.011715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UTD2/2bsbcall-00013-texture.png
+  artifactKey: Guid(4bc41035c83973a4289a8d3852a82a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00013-texture.png using Guid(4bc41035c83973a4289a8d3852a82a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e395a11931b3cace26b94d67803fd4') in 0.011830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UTD2/2bsbcall-00001-texture.png
+  artifactKey: Guid(92b9e7085af8d58439c44d6d1493becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00001-texture.png using Guid(92b9e7085af8d58439c44d6d1493becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac76ebfaece62fbd325a96f65dbf418') in 0.011732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UTD2/2bsbcall-00034-texture.png
+  artifactKey: Guid(d880d2144cfb4144ba97d77ea221e2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00034-texture.png using Guid(d880d2144cfb4144ba97d77ea221e2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d369fd316b8535a79ecc94c7b07f2b') in 0.012802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UTD2/2bsbcall-00077-texture.png
+  artifactKey: Guid(8fd90fcf981afad46ac761318644ea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD2/2bsbcall-00077-texture.png using Guid(8fd90fcf981afad46ac761318644ea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbe9d03262cca82139345d466e60257') in 0.011471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UTD15/15tennis-00065-texture.png
+  artifactKey: Guid(032a6fcd798b3a748818c9a24fdf6c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTD15/15tennis-00065-texture.png using Guid(032a6fcd798b3a748818c9a24fdf6c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06418696902a7567d7117cd46dfc5d66') in 0.012221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

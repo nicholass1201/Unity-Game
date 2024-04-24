@@ -16,7 +16,10 @@ using UnityEngine.UI;
 
 public class FirstPersonController : MonoBehaviour
 {
-
+    public bool hasSprintUpgrade = false;
+    public bool hasDoubleJumpUpgrade = false;
+    public bool hasWallJumpUpgrade = false;
+    public bool hasUnlimitedStamina = false;
     private float wallJumpPowerScale = 0.05f;
     private Rigidbody rb;
 
@@ -155,7 +158,7 @@ void OnCollisionExit(Collision other)
 }
 private void WallJump()
 {
-    if (isWallTouching)
+    if (isWallTouching && hasWallJumpUpgrade)
     {
         Vector3 jumpDirection = (Vector3.up + wallNormal).normalized;
         rb.AddForce(jumpDirection * jumpPower * wallJumpPowerScale, ForceMode.Impulse);
@@ -358,7 +361,7 @@ private void WallJump()
         #region Jump
 
         // Gets input and calls jump method
-        if(enableJump && Input.GetKeyDown(jumpKey) && (isGrounded || currentJumpCount < maxJumpCount))
+        if(enableJump && Input.GetKeyDown(jumpKey) && (isGrounded || currentJumpCount < maxJumpCount || hasDoubleJumpUpgrade))
         {
             Jump();
         }
@@ -494,7 +497,7 @@ private void WallJump()
 
     private void Jump()
     {
-        if (currentJumpCount < maxJumpCount)
+        /*if (currentJumpCount < maxJumpCount)
         {
             rb.AddForce(0f, jumpPower, 0f, ForceMode.Impulse);
             currentJumpCount++; // Increment jump count on jump
@@ -506,8 +509,18 @@ private void WallJump()
             rb.AddForce(0f, jumpPower, 0f, ForceMode.Impulse);
             isGrounded = false;
         }
-
-        // When crouched and using toggle system, will uncrouch for a jump
+        */
+        if (isGrounded || (hasDoubleJumpUpgrade && currentJumpCount < maxJumpCount))
+        {
+            rb.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
+            currentJumpCount++;
+            isGrounded = false;
+        }
+        else if (!isGrounded && hasDoubleJumpUpgrade && currentJumpCount < maxJumpCount)
+        {
+            rb.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
+            currentJumpCount++;
+        }
         if(isCrouched && !holdToCrouch)
         {
             Crouch();
