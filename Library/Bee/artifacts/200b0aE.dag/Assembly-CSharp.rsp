@@ -352,13 +352,14 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
-"Assets/Points.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs"
 "Assets/Scripts/Coin.cs"
 "Assets/Scripts/Interactable.cs"
-"Assets/Spin.cs"
-"Assets/Timer.cs"
+"Assets/Scripts/ObjectiveProgression.cs"
+"Assets/Scripts/score.cs"
+"Assets/Scripts/Spin.cs"
+"Assets/Scripts/timer.cs"
 -langversion:9.0
 
 /deterministic
