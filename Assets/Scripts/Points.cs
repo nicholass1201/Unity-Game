@@ -7,6 +7,7 @@ public class Points : MonoBehaviour
    public float minimumDistanceA = 100.0f; // Minimum distance between point and camera
    public Light startBeacon;
    public Light endBeacon;
+   public Timer timer;
    private Transform[] pointIcons = new Transform[2];
    private Vector3[] fixedPoints = new Vector3[]
     {
@@ -39,6 +40,7 @@ public class Points : MonoBehaviour
       {
          SpawnRandomPoints();
          Spin.activeSpinCount = 2;
+         timer.resetTimer();
       }
    }
 

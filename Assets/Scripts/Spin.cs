@@ -28,7 +28,7 @@ public class Spin : MonoBehaviour
    }
 
 
-   private void ResetTimer()
+   public void ResetTimer()
    {
       timer.resetTimer();
       activeSpinCount = 2;
@@ -38,18 +38,6 @@ public class Spin : MonoBehaviour
    void Update()
    {
       transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
-      if (Input.GetMouseButtonDown(0))
-      {
-         ResetTimer();
-      }
-      if (timerStarted)
-      {
-         ;//elapsedTime += Time.deltaTime; // Increment elapsed time
-      }
-      if (!timerStarted){
-         ;
-      }
-         //elapsedTime = 0;
    }
 }
 
