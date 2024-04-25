@@ -1,211 +1,76 @@
-/*using UnityEngine;
-
-public class Points : MonoBehaviour
-{
-   public Transform locationPointIcon;
-   public float minimumDistance = 400.0f; // Minimum distance between point A and point B (adjust this value)
-   public float minimumDistanceA = 50.0f;
-   public Light startBeacon;
-   public Light endBeacon;
-   private Transform pointAIcon;
-   private Transform pointBIcon;
-
-   public float planeMinX = -500.0f; // Define your plane boundaries here
-   public float planeMinZ = -500.0f;
-   public float planeMaxX = 500.0f;
-   public float planeMaxZ = 500.0f;
-   public float raycastDistance = 35.0f; // Distance for raycast
-
-   public void Update()
-   {
-      if (Input.GetMouseButtonDown(0))
-      {
-         Vector3 pointA, pointB;
-         Vector3 cameraPosition = Camera.main.transform.position;
-
-         do
-         {
-            Vector3 tempPointA = new Vector3(Random.Range(planeMinX, planeMaxX), 2, Random.Range(planeMinZ, planeMaxZ));
-            Vector3 tempPointB = new Vector3(Random.Range(planeMinX, planeMaxX), 2, Random.Range(planeMinZ, planeMaxZ));
-            float distanceToCamera = Vector3.Distance(tempPointA, cameraPosition);
-            if (distanceToCamera >= minimumDistanceA && Vector3.Distance(tempPointA, tempPointB) >= minimumDistance)
-            {
-               RaycastHit hit;
-               if (Physics.Raycast(tempPointA, Vector3.down, out hit, raycastDistance))
-               {
-                  if (hit.point.y > 3) // Check if hit point is above ground level
-                  {
-                     Debug.Log("on a building!");
-                     continue;
-                  }
-               }
-               pointA = tempPointA;
-               pointB = tempPointB;
-               if (pointAIcon != null)
-               {
-                  pointAIcon.gameObject.SetActive(true);
-                  pointAIcon.transform.position = pointA;
-
-               }
-               else
-               {
-                  pointAIcon = Instantiate(locationPointIcon, pointA, Quaternion.identity);
-               }
-               if (pointBIcon != null)
-               {
-                  pointBIcon.gameObject.SetActive(true);
-                  pointBIcon.transform.position = pointB;
-               }
-               else
-               {
-                  pointBIcon = Instantiate(locationPointIcon, pointB, Quaternion.identity);
-               }
-               break;
-            }
-         } while (true);
-
-         startBeacon.transform.position = new Vector3(pointA.x, pointA.y + 175, pointA.z);
-         endBeacon.transform.position = new Vector3(pointB.x, pointB.y + 175, pointB.z);
-      }
-   }
-}*/
-/*using UnityEngine;
-
-public class Points : MonoBehaviour
-{
-  public Transform locationPointIcon;
-  public float minimumDistance = 400.0f; // Minimum distance between point A and point B (adjust this value)
-  public float minimumDistanceA = 50.0f;
-  public Light startBeacon;
-  public Light endBeacon;
-  private Transform pointAIcon;
-  private Transform pointBIcon;
-
-  public float planeMinX = -500.0f; // Define your plane boundaries here
-  public float planeMinZ = -500.0f;
-  public float planeMaxX = 500.0f;
-  public float planeMaxZ = 500.0f;
-  public float raycastDistance = 35.0f; // Distance for raycast
-
-  public void Update()
-  {
-    if (Input.GetMouseButtonDown(0))
-    {
-      Vector3 pointA, pointB;
-      Vector3 cameraPosition = Camera.main.transform.position;
-
-      do
-      {
-        Vector3 tempPointA = new Vector3(Random.Range(planeMinX, planeMaxX), 1, Random.Range(planeMinZ, planeMaxZ));
-        Vector3 tempPointB = new Vector3(Random.Range(planeMinX, planeMaxX), 1, Random.Range(planeMinZ, planeMaxZ));
-        float distanceToCamera = Vector3.Distance(tempPointA, cameraPosition);
-        if (distanceToCamera >= minimumDistanceA && Vector3.Distance(tempPointA, tempPointB) >= minimumDistance)
-        {
-          RaycastHit hit;
-          if (Physics.Raycast(tempPointA, Vector3.down, out hit, raycastDistance))
-          {
-            // Check if normal vector y-component is close to 1 (pointing upwards)
-            if (Mathf.Abs(hit.normal.y) >= 0.9f)
-            {
-              pointA = tempPointA;
-              pointB = tempPointB;
-              if (pointAIcon != null)
-              {
-                pointAIcon.gameObject.SetActive(true);
-                pointAIcon.transform.position = pointA;
-              }
-              else
-              {
-                pointAIcon = Instantiate(locationPointIcon, pointA, Quaternion.identity);
-              }
-              if (pointBIcon != null)
-              {
-                pointBIcon.gameObject.SetActive(true);
-                pointBIcon.transform.position = pointB;
-              }
-              else
-              {
-                pointBIcon = Instantiate(locationPointIcon, pointB, Quaternion.identity);
-              }
-              break;
-            }
-          }
-        }
-      } while (true);
-
-      startBeacon.transform.position = new Vector3(pointA.x, pointA.y + 175, pointA.z);
-      endBeacon.transform.position = new Vector3(pointB.x, pointB.y + 175, pointB.z);
-    }
-  }
-}*/
 using UnityEngine;
 
 public class Points : MonoBehaviour
 {
    public Transform locationPointIcon;
    public float minimumDistance = 400.0f; // Minimum distance between point A and point B
-   public float minimumDistanceA = 50.0f; // Minimum distance between point and camera
+   public float minimumDistanceA = 100.0f; // Minimum distance between point and camera
    public Light startBeacon;
    public Light endBeacon;
-   private Transform pointAIcon;
-   private Transform pointBIcon;
-
-   public float planeMinX = -500.0f; // Define your plane boundaries here
-   public float planeMinZ = -500.0f;
-   public float planeMaxX = 500.0f;
-   public float planeMaxZ = 500.0f;
+   private Transform[] pointIcons = new Transform[2];
+   private Vector3[] fixedPoints = new Vector3[]
+    {
+        new Vector3(130, 2, 165),
+        new Vector3(30, 2, 124),
+        new Vector3(83, 2, -174),
+        new Vector3(67, 2, 185),
+        new Vector3(51, 2, 103),
+        new Vector3(30, 2, -107),
+        new Vector3(83, 2, -563),
+        new Vector3(376, 2, 176),
+        new Vector3(220, 2, 243),
+        new Vector3(259, 2, -166),
+        new Vector3(216, 2, -343),
+        new Vector3(-158, 2, 78),
+        new Vector3(-158, 2, 297),
+        new Vector3(-112, 2, 211),
+        new Vector3(-223, 2, -52),
+        new Vector3(-223, 2, -227)
+   };
 
    public void Start()
    {
-      RandomizePoints();
+      SpawnRandomPoints();
    }
 
    public void Update()
    {
       if (Spin.activeSpinCount == 0)
       {
-         RandomizePoints();
+         SpawnRandomPoints();
          Spin.activeSpinCount = 2;
       }
    }
 
-   private void RandomizePoints()
+   void SetLocationPoint(Vector3 point, ref Transform icon, Light beacon)
    {
-      Vector3 pointA, pointB;
-      Vector3 cameraPosition = Camera.main.transform.position;
-
-      do
+      // Check if the icon already exists, update its position; if not, instantiate it
+      if (icon != null)
       {
-         Vector3 tempPointA = new Vector3(Random.Range(planeMinX, planeMaxX), 4, Random.Range(planeMinZ, planeMaxZ));
-         Vector3 tempPointB = new Vector3(Random.Range(planeMinX, planeMaxX), 4, Random.Range(planeMinZ, planeMaxZ));
-         float distanceToCamera = Vector3.Distance(tempPointA, cameraPosition);
-         if (distanceToCamera >= minimumDistanceA && Vector3.Distance(tempPointA, tempPointB) >= minimumDistance)
-         {
-            pointA = tempPointA;
-            pointB = tempPointB;
-            if (pointAIcon != null)
-            {
-               pointAIcon.gameObject.SetActive(true);
-               pointAIcon.transform.position = pointA;
-            }
-            else
-            {
-               pointAIcon = Instantiate(locationPointIcon, pointA, Quaternion.identity);
-            }
-            if (pointBIcon != null)
-            {
-               pointBIcon.gameObject.SetActive(true);
-               pointBIcon.transform.position = pointB;
-            }
-            else
-            {
-               pointBIcon = Instantiate(locationPointIcon, pointB, Quaternion.identity);
-            }
-            break;
-         }
-      } while (true);
+         icon.position = point; // Update position if already instantiated
+         icon.gameObject.SetActive(true);
+         beacon.transform.position = new Vector3(point.x, point.y + 325, point.z);
+      }
+      else
+      {
+         icon = Instantiate(locationPointIcon, point, Quaternion.identity);
+         icon.gameObject.SetActive(true);
+         beacon.transform.position = new Vector3(point.x, point.y + 325, point.z);
+      }
+   }
 
-      startBeacon.transform.position = new Vector3(pointA.x, pointA.y + 175, pointA.z);
-      endBeacon.transform.position = new Vector3(pointB.x, pointB.y + 175, pointB.z);
+   void SpawnRandomPoints()
+   {
+      // Randomly pick two distinct indices
+      int indexA = Random.Range(0, fixedPoints.Length);
+      int indexB = Random.Range(0, fixedPoints.Length);
+      while (indexB == indexA) // Ensure indexB is different from indexA
+      {
+         indexB = Random.Range(0, fixedPoints.Length);
+      }
+
+      // Set the points
+      SetLocationPoint(fixedPoints[indexA], ref pointIcons[0], startBeacon);
+      SetLocationPoint(fixedPoints[indexB], ref pointIcons[1], endBeacon);
    }
 }

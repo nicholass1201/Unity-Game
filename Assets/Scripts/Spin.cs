@@ -3,9 +3,9 @@ using UnityEngine;
 public class Spin : MonoBehaviour
 {
    public float rotationSpeed = 45; 
-   private static int activeSpinCount = 2; // Keeps track of active Spin objects
+   public static int activeSpinCount = 2; // Keeps track of active Spin objects
    public static bool timerStarted = false; // Flag to track timer state
-   private float elapsedTime = 0;
+   //private float elapsedTime = 0;
    public Timer timer;
 
    public void OnCollisionEnter(Collision collision)
