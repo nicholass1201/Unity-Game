@@ -41,7 +41,10 @@ public class Score : MonoBehaviour
      public void CalculateScore()
     {
         float elapsedTime = timer.GetElapsedTime(); // Get the elapsed time from the timer
-        float tempscore = (1000);
+        float tempscore = 0;
+        if(elapsedTime!=0){
+         tempscore = (1000);
+        }
         int tpscore = (int)tempscore;// Adjust the scoring mechanism as per your requirement
         UpdateScore(tpscore);
     }
