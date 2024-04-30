@@ -43,9 +43,10 @@ public class Score : MonoBehaviour
         float elapsedTime = timer.GetElapsedTime(); // Get the elapsed time from the timer
         float tempscore = 0;
         if(elapsedTime!=0){
-         tempscore = (1000);
+         //tempscore = (1000); //for presentation demo to show unlocking movement upgrades
+          tempscore = (2000/elapsedTime); //calculate score based on the elapsed time
         }
-        int tpscore = (int)tempscore;// Adjust the scoring mechanism as per your requirement
+        int tpscore = (int)tempscore;
         UpdateScore(tpscore);
     }
 }
